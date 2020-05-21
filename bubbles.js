@@ -1,8 +1,9 @@
+// chatbot styling and functionality from https://glitch.com/~feminist-chatbot-template
 // core function
 function Bubbles(container, self, options) {
   // options
   options = typeof options !== "undefined" ? options : {}
-  animationTime = options.animationTime || 450 // how long it takes to animate chat bubble, also set in CSS
+  animationTime = options.animationTime || 350 // how long it takes to animate chat bubble, also set in CSS
   typeSpeed = options.typeSpeed || 5 // delay per character, to simulate the machine "typing"
   widerBy = options.widerBy || 2 // add a little extra width to bubbles to make sure they don't break
   sidePadding = options.sidePadding || 6 // padding on both sides of chat bubbles
@@ -325,11 +326,7 @@ function prepHTML(options) {
     link.media = "screen,print"
     document.getElementsByTagName("head")[0].appendChild(link)
   }
-  appendCSS(relative_path + "component/styles/input.css")
-  appendCSS(relative_path + "component/styles/reply.css")
-  appendCSS(relative_path + "component/styles/says.css")
-  appendCSS(relative_path + "component/styles/setup.css")
-  appendCSS(relative_path + "component/styles/typing.css")
+  appendCSS(relative_path + "/style.css")
 }
 
 // exports for es6

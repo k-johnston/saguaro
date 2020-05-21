@@ -1,41 +1,36 @@
-Welcome to Glitch
-=================
+About Saguaro
+=============
 
-About: Knowledge is power - maybe our conversation is the seed for an interest in bringing native plants to your own yard! This chatbot was created by Kathryn Johnston for the DESIGN A FEMINIST CHATBOT course by UAL CREATIVE COMPUTING INSTITUTE https://www.futurelearn.com/courses/designing-a-feminist-chatbot. I have a few more chatbots that will talk with you about native plants in Arizona or California at [URL glitch collection]. You can even remix this chatbot to talk about plants in your area. Thanks to the resources amwua.org, azstateparks.com, wikipedia.org, and http://www.efloras.org/ for the information about common and native cacti in Arizona. All images are from Wikipedia, except for the photo of a Echinomastus erectocentrus which was taken by lonqueta and accessed on flickr https://www.flickr.com/photos/lonqueta/5681560518
-https://glitch.com/~feminist-chatbot-template
-Photo by Dulcey Lima on Unsplash https://unsplash.com/photos/Md-rgK-zwgU
+### 🌵 Why cacti?
 
-Click `Show` in the header to see your app live. Updates to your code will instantly deploy and update live.
+I'm from Arizona, but didn't know much about the many common and native varieties of cacti there. I wanted to learn more!
 
-**Glitch** is the friendly community where you'll build the app of your dreams. Glitch lets you instantly create, remix, edit, and host an app, bot or site, and you can invite collaborators or helpers to simultaneously edit code with you.
+The scientific classification of cacti was a good constraint to structure and organize my project and keep a limited scope. I used these resources: [Wikipedia](https://en.wikipedia.org/), [Arizona Municipal Water Users Association](http://www.amwua.org/what-you-can-do/landscape-and-garden), [Arizona State Parks & Trails](https://azstateparks.com/), and the [eFloras database](http://www.efloras.org/index.aspx).
 
-Find out more [about Glitch](https://glitch.com/about).
+If you are intersted in learning more about cacti or native plants in your region, I recommend these resources. Maybe this conversation is the seed that will inspire you to add them to your own yard and strengthen the biodiversity of your environment!
 
+### 🌵 Why a chatbot?
 
-Your Project
-------------
+This chatbot was created for the capstone project in the [Design a Feminist Chatbot course](https://www.futurelearn.com/courses/designing-a-feminist-chatbot) by UAL Creative Computing Institute.
 
-### ← README.md
+### 🌵 Photo credits
 
-That's this file, where you can tell people what your cool website does and how you built it.
+The background splash image is by Dulcey Lima on [Unsplash](https://unsplash.com/photos/Md-rgK-zwgU).
 
-### ← index.html
+All images within the chat are from [Wikipedia](https://en.wikipedia.org/wiki/Cactus), except for Echinomastus erectocentrus, which was taken by lonqueta and accessed on [flickr](https://www.flickr.com/photos/lonqueta/5681560518).
 
-Where you'll write the content of your website. 
+Thanks to everyone for allowing these images to be used.
 
-### ← style.css
+### 🌵 More plant chatbots
 
-CSS files add styling rules to your content.
+I have a few more chatbots in development based on this one:
+- [California plants](https://hi-california-plant-friends.glitch.me/)
+- [Arizona plants](https://hi-arizona-plant-friends.glitch.me/)
+- [Western wildflowers](https://hi-wildflower-friends.glitch.me/)
 
-### ← script.js
+Please remix this for the plants in your area! I'd love to learn more about them 😊
 
-If you're feeling fancy you can add interactivity to your site with JavaScript.
-
-### ← assets
-
-Drag in `assets`, like images or music, to add them to your project
-
-Made by [Glitch](https://glitch.com/)
+Made on [Glitch](https://glitch.com/)
 -------------------
 
 \ ゜o゜)ノ

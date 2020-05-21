@@ -9,7 +9,7 @@
     
     <link rel="stylesheet" href="/style.css">
     <script src="/bubbles.js"></script>
-    <script src="/cacti.js" defer></script>
+    <script src="/script.js" defer></script>
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌵</text></svg>">
 
   </head>  
@@ -24,17 +24,16 @@
 
 <script src="/convo.js"></script>
 <script>
+var convo;
 var chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
   inputCallbackFn: function(o) {
-
-    // this is for the bot - don't worry
     var match = function(key) {
       setTimeout(function() {
         chatWindow.talk(convo, key) // restart current convo from point found in the answer
       }, 600)
     }
 
-    // sanitize text for search function - for the bot
+    // sanitize text for search function
     var strip = function(text) {
       return text.toLowerCase().replace(/[\s.,\/#!$%\^&\*;:{}=\-_'"`~()]/g, "")
     }
@@ -48,7 +47,8 @@ var chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
     })
     found ? match(found) : miss()
   }
-})
+}) // section for setting up bot is finished.
+
 chatWindow.talk(convo)
 </script>
     <script src="https://button.glitch.me/button.js" defer></script>

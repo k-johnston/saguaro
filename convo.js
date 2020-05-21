@@ -1,56 +1,21 @@
-// tk stop function with the X
-// tk ~line 470 "1B2BA" - new Date - month shows the answer
-// tk ~line 540 "1B2CB" - colors
-// tk move the stuff in index.html to this file?
-// all plants in list.js
-// tk refactor css
-// tk mobile
-// tk chat bubbles corners on desktop and mobile
-// about isn't working - how to rewrite - put in readme?
-// delete console logs and extra comments
-// qa with all cacti
-// boy_says, human_reply, human_response, bot_answer
-// seems dead-ends of the code drop the buttons - i.e., if there's no connecting id in the convo object
-
 var convo = {
 // 0 - entrance messages
 intro: {
     bot_says: [ "Hi, this is Saguaro, the chatbot who will help you identify a cactus that you found.",
                 "Saguaro won't access your location or save your response, so if you are interested in learning more about the answer, please save its name somewhere that can be accessed later.",
                 "If you want to stop at any time, you can press the X in the bottom left corner.",
-                "Would you like to learn more about this chatbot, or are you ready for a few questions?"
+                "Are you ready for a few questions?"
         ],
     human_reply: [
             {
-                human_response: "Learn more",
-                bot_answer: "about"
-            },
-            {
-                human_response: "Answer questions",
-                bot_answer: "height"
-            }
-        ]
-},
-"about" : {
-    bot_says: [ "Saguaro was created by Kathryn Johnston for the Design A Feminist Chatbot course. It will talk with you about native plants in Arizona.",
-                "You can remix this chatbot to help others learn about plants in your area by clicking on the fish in the upper left corner.",
-                "Knowledge is power - maybe our conversation is the seed for an interest in bringing native plants to your own yard!",
-                "Would you like to return back to our conversation?"
-        ],
-human_reply: [
-            {
-                human_response: "Ok, let's go",
-                bot_answer: "height"
-            },
-            {
-                human_response: "test2",
-                bot_answer: "end"
+                human_response: "Ready to go",
+                bot_answer: "theheight"
             }
         ]
 },
 // end 0
 // 1 - general height question
-"height" : {
+"theheight" : {
     bot_says: [ "Great, let's get started! How tall is this cactus?", 
                 "Maybe it is still growing, but all of Saguaro's questions help to narrow down the genus (groups of species) of the cactus."
         ],
@@ -190,7 +155,7 @@ human_reply: [
         ],
 human_reply: [  
             {
-                human_response: "Let's start again",
+                human_response: "I want to start again",
                 bot_answer: "height"
             },   
             {
@@ -201,7 +166,7 @@ human_reply: [
 },
 "1B2A" : {
     bot_says: [ "Ok, so this is a medium-height cactus that is shaped like a column.",
-                "Can you take a closer look (carefully!) and tell Saguaro what the needles look like?"
+                "Can you take a closer look \(carefully!\) and tell Saguaro what the needles look like?"
         ],
 human_reply: [  
             {
@@ -264,7 +229,7 @@ human_reply: [
                 bot_answer: "1B2DA"
             },   
             {
-                human_response: "No, it doesn't look like that",
+                human_response: "No, it does not look like that",
                 bot_answer: "1B2DB"
             }
         ]
@@ -338,7 +303,7 @@ human_reply: [
   // 4 - differentiator questions round 2
 "1A2AA" : {
     bot_says: [ "We are getting there, but I have another question.",
-                "Are its needles black? (Please take care when looking, as they are sharp!)"
+                "Are its needles black? \(Please take care when looking, as they are sharp!\)"
         ],
 human_reply: [  
             {
@@ -357,7 +322,7 @@ human_reply: [
         ],
 human_reply: [  
             {
-                human_response: "I'm ready",
+                human_response: "Ready to go",
                 bot_answer: "1A2ABsaguaro"
             }
         ]
@@ -383,7 +348,7 @@ human_reply: [
         ],
 human_reply: [  
             {
-                human_response: "I'm ready",
+                human_response: "Ready to go",
                 bot_answer: "1A2BBblueMyrtle"
             }
         ]
@@ -409,7 +374,7 @@ human_reply: [
         ],
 human_reply: [  
             {
-                human_response: "I'm ready",
+                human_response: "Ready to go",
                 bot_answer: "1A2CBblueMyrtle"
             }
         ]
@@ -424,7 +389,7 @@ human_reply: [
                 bot_answer: "1B2AAspruceCones"
             },   
             {
-                human_response: "No, that's not really what the cactus looks like",
+                human_response: "No, it does not look like that",
                 bot_answer: "1B2AAtotemPole"
             }
         ]
@@ -468,15 +433,15 @@ human_reply: [
         ],
 human_reply: [  
             {
-                human_response: "{June-July-August} There are white and pink flowers and green fruit {default} There aren't any flowers, but there are needles that are the length of fingers and extremely short",
+                human_response: "{June-July-August} There are white and pink flowers and green fruit {default} There are no flowers, but there are needles that are the length of fingers and extremely short",
                 bot_answer: "1B2BAjumpingCholla"
             },   
             {
-                human_response: "{April-May-June} There are magenta to purple blooms {July-August} There aren't any flowers, but there are long-lasting yellow fruits {default} There aren't any flowers, but this cactus has moderate needles",
+                human_response: "{April-May-June} There are magenta to purple blooms {July-August} There are no flowers, but there are long-lasting yellow fruits {default} There are no flowers, but this cactus has moderate needles",
                 bot_answer: "1B2BAcaneCholla"
             },   
             {
-                human_response: "{April-May-June-September} There are yellow green flowers {default} There aren't any flowers, but the needles look fuzzy",
+                human_response: "{April-May-June-September} There are yellow green flowers {default} There are no flowers, but the needles look fuzzy",
                 bot_answer: "1B2BAteddyBearCholla"
             }
         ]
@@ -492,7 +457,7 @@ human_reply: [
                 bot_answer: "1B2BBocotillo"
             },   
             {
-                human_response: "Yes, this cactus has branches, but there are no flowers (or maybe they are completely wilted)",
+                human_response: "Yes, this cactus has branches, but there are no flowers \(or maybe they are completely wilted\)",
                 bot_answer: "1B2BBqueenOfTheNight"
             },   
             {
@@ -559,7 +524,7 @@ human_reply: [
         ],
 human_reply: [  
             {
-                human_response: "I'm ready",
+                human_response: "Ready to go",
                 bot_answer: "1B2CCdesertChristmas"
             }
         ]
@@ -589,7 +554,7 @@ human_reply: [
                 bot_answer: "1B2DBdevilshead"
             },   
             {
-                human_response: "No, the cactus doesn't look like that",
+                human_response: "No, the cactus does not look like that",
                 bot_answer: "1B2DBcompass"
             }
         ]
@@ -600,7 +565,7 @@ human_reply: [
         ],
 human_reply: [  
             {
-                human_response: "I'm ready",
+                human_response: "Ready to go",
                 bot_answer: "1C2AAlittleBarrel"
             }
         ]
@@ -611,7 +576,7 @@ human_reply: [
         ],
 human_reply: [  
             {
-                human_response: "I'm ready",
+                human_response: "Ready to go",
                 bot_answer: "1C2ABcommonFishhook"
             }
         ]
@@ -622,7 +587,7 @@ human_reply: [
         ],
 human_reply: [  
             {
-                human_response: "I'm ready",
+                human_response: "Ready to go",
                 bot_answer: "1C2BAengelmannHedgehog"
             }
         ]
@@ -633,7 +598,7 @@ human_reply: [
         ],
 human_reply: [  
             {
-                human_response: "I'm ready",
+                human_response: "Ready to go",
                 bot_answer: "1C2BBpinkflower"
             }
         ]
@@ -644,7 +609,7 @@ human_reply: [
         ],
 human_reply: [  
             {
-                human_response: "I'm ready",
+                human_response: "Ready to go",
                 bot_answer: "1C2CAengelmannHedgehog"
             }
         ]
@@ -655,7 +620,7 @@ human_reply: [
         ],
 human_reply: [  
             {
-                human_response: "I'm ready",
+                human_response: "Ready to go",
                 bot_answer: "1C2CBpinkflower"
             }
         ]
@@ -705,59 +670,1037 @@ human_reply: [
             }
         ]
 },
-  // end 4
-  // 5 - cactus
-"1A2AAorganPipe" : {}, // Thanks for your answers. Saguaro thinks it knows the cactus! Is this right? show images, name, sci name, fun fact
-"1A2AAhildmann" : {},
-"1A2ABsaguaro" : {},
-"1A2BAindianFigPrickly" : {},
-"1A2CAindianFigPrickly" : {},
-"1A2BAgiantPrickly" : {},
-"1A2CAgiantPrickly" : {},
-"1A2BBblueMyrtle" : {},
-"1A2CBblueMyrtle" : {},
-"1B2AAspruceCones" : {},
-"1B2AAtotemPole" : {},
-"1B2ABmexicanFencepost" : {},
-"1B2ABsenita" : {},
-"1B2ACfishhook" : {},
-"1B2ACargentineGiant" : {},
-"1B2BAjumpingCholla" : {},
-"1B2BAcaneCholla" : {},
-"1B2BAteddyBearCholla" : {},
-"1B2BBocotillo" : {},
-"1B2BBqueenOfTheNight" : {},
-"1B2BBchaparralPrickly" : {},
-"1B2CAbuckhornCholla" : {},
-"1B2CAcottonTop" : {},
-"1B2CAhedgehog" : {},
-"1B2CAarizonaHedgehog" : {},
-"1B2CBbeavertailPrickly" : {},
-"1B2CBpancakePrickly" : {},
-"1B2CBengelmannPrickly" : {},
-"1B2CBvioletPrickly" : {},
-"1B2CBpurplePrickly" : {},
-"1B2CCdesertChristmas" : {},
-"1B2DAargentineHedgehog" : {},
-"1B2DAgoldenBarrel" : {},
-"1B2DBdevilshead" : {},
-"1B2DBcompass" : {},
-"1C2BAengelmannHedgehog" : {},
-"1C2CAengelmannHedgehog" : {},
-"1C2BBpinkflower" : {},
-"1C2CBpinkflower" : {},
-"1C2DAsandDollar" : {},
-"1C2DApincushion" : {},
-"1C2AAlittleBarrel" : {},
-"1C2DBlittleBarrel" : {},
-"1C2ABcommonFishhook" : {},
-"1C2DBcommonFishhook" : {},
-"1C2DCredspinePineapple" : {},
-"1C2DCpimaPineapple" : {},
+// end 4
+// 5 - cactus
+"1A2AAorganPipe" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                "Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "genus"
+            },    
+            {
+                human_response: "That looks like my cactus",
+                bot_answer: "successend1"
+            }
+        ]
+},
+"1A2AAhildmann" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [ 
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "B"
+            },
+            {
+                human_response: "That looks like my cactus",
+                bot_answer: "A"
+            }   
+        ]
+},
+"1A2ABsaguaro" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                bot_answer: "A"
+            },   
+            {
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1A2BAindianFigPrickly" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1A2CAindianFigPrickly" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1A2BAgiantPrickly" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1A2CAgiantPrickly" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1A2BBblueMyrtle" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1A2CBblueMyrtle" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2AAspruceCones" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2AAtotemPole" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2ABmexicanFencepost" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2ABsenita" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2ACfishhook" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2ACargentineGiant" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2BAjumpingCholla" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2BAcaneCholla" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2BAteddyBearCholla" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2BBocotillo" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2BBqueenOfTheNight" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2BBchaparralPrickly" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2CAbuckhornCholla" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2CAcottonTop" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2CAhedgehog" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2CAarizonaHedgehog" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2CBbeavertailPrickly" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2CBpancakePrickly" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2CBengelmannPrickly" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2CBvioletPrickly" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2CBpurplePrickly" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2CCdesertChristmas" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2DAargentineHedgehog" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2DAgoldenBarrel" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2DBdevilshead" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1B2DBcompass" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1C2BAengelmannHedgehog" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1C2CAengelmannHedgehog" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1C2BBpinkflower" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1C2CBpinkflower" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1C2DAsandDollar" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1C2DApincushion" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1C2AAlittleBarrel" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1C2DBlittleBarrel" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1C2ABcommonFishhook" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1C2DBcommonFishhook" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1C2DCredspinePineapple" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
+"1C2DCpimaPineapple" : {
+    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
+                "name",
+                "name",
+                "<img src=https://... />",
+                "<img src=https://... />",
+                "alert",
+                "funfact",
+                " Is this right?"
+        ],
+    human_reply: [  
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "A"
+            },   
+            {                
+                human_response: "That looks like my cactus",
+                bot_answer: "B"
+            }
+        ]
+},
 // end 5
 // 6 - genus / backup for cactus
-"next" : {}
+"genus" : {
+    bot_says: [ "Genus"
+        ]
+},
 // end 6
 // 7 - exit messages
+"successend" : {
+    bot_says: [ "Great! We figured it out together. You can ask Saguaro about another cactus."
+        ],
+    human_reply: [  
+            {
+                human_response: "I want to learn about another cactus",
+                bot_answer: "theheight"
+            },   
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "finalend"
+            }
+        ]
+},
+"successend1" : {
+    bot_says: [ "Great! We figured it out together. You can ask Saguaro about another cactus."
+        ],
+    human_reply: [  
+            {
+                human_response: "I want to learn about another cactus",
+                bot_answer: "theheight"
+            },   
+            {
+                human_response: "Hmmm, maybe not",
+                bot_answer: "finalend"
+            }
+        ]
+},
+"earlyend" : {
+    bot_says: [ "Ok, I understand. Thanks for talking with Saguaro."
+        ]
+},
+"finalend" : {
+    bot_says: [ "Bye! Thanks for talking with Saguaro."
+        ]
+}
 // end 7
 };
