@@ -1,3 +1,4 @@
+
 // stops conversation using X in lower-left corner
 const stopIcon = document.getElementById("stop");
 
@@ -22,6 +23,11 @@ stopIcon.addEventListener("click", function stopChat() {
 
 /*
 
+"earlyend" : {
+    bot_says: [ "Ok, I understand. Thanks for talking with Saguaro."
+        ]
+},
+
 .bubble-typing.imagine, .bubble.imagine {
     transform: scale(1);
     transition: all 450ms, height 450ms 1s, padding 450ms 1s;
@@ -42,3 +48,6 @@ stopIcon.addEventListener("click", function stopChat() {
 // tk delete console logs and extra comments
 // tk qa with all cacti
 // bot_answer: "#" signifies that this is the end of the conversation
+// length of human replies making the chat a little buggy
+// max height images
+// writing
