@@ -151,16 +151,16 @@ human_reply: [
 },
 "1A2D" : {
     bot_says: [ "Ok, so this is a very tall cactus that is shaped like a globe.",
-                "There's no cacti that matches this description in Saguaro's database. Maybe we should start again?"
+                "There's no cacti that matches this description. Maybe we should start again?"
         ],
 human_reply: [  
             {
                 human_response: "I want to start again",
-                bot_answer: "height"
+                bot_answer: "theheight"
             },   
             {
-                human_response: "No thank you",
-                bot_answer: "end"
+                human_response: "No, thank you",
+                bot_answer: "finalend"
             }
         ]
 },
@@ -241,7 +241,7 @@ human_reply: [
         ],
 human_reply: [  
             {
-                human_response: "gray hooked needles",
+                human_response: "Gray hooked needles",
                 bot_answer: "1C2AA"
             },   
             {
@@ -674,17 +674,16 @@ human_reply: [
 // 5 - cactus
 "1A2AAorganPipe" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Organ pipe",
-                "Stenocereus thurberi",
+                "Organ pipe (Stenocereus thurberi)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Organ_pipe_cactus.jpg/220px-Organ_pipe_cactus.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Stenocereus_thurberi-flower.jpg/90px-Stenocereus_thurberi-flower.jpg />",
                 "This cactus is slow to grow",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1A2AAorganPipeGenus"
+                bot_answer: "genusCereus"
             },    
             {
                 human_response: "That looks like my cactus",
@@ -694,16 +693,15 @@ human_reply: [
 },
 "1A2AAhildmann" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Hildmann&rsquo;s cereus",
-                "Cereus hildmannianus",
+                "Hildmann&rsquo;s cereus (Cereus hildmannianus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Cereus_hildmannianus_subsp._uruguayanus_-_Peruvian_Torch_Flowers.jpg/576px-Cereus_hildmannianus_subsp._uruguayanus_-_Peruvian_Torch_Flowers.jpg />",
                 "This cactus looks like organ pipes",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [ 
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1A2AAhildmannGenus"
+                bot_answer: "genusCereus"
             },
             {
                 human_response: "That looks like my cactus",
@@ -712,19 +710,18 @@ human_reply: [
         ]
 },
 "1A2ABsaguaro" : {
-    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Saguaro",
-                "Carnegiea gigantea",
+    bot_says: [ "Here we go!",
+                "Saguaro (Carnegiea gigantea)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg/576px-Carnegiea_gigantea_in_Saguaro_National_Park_near_Tucson%2C_Arizona_during_November_%2858%29.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Carnegiea_gigantea_%28Saguaro_cactus%29_blossoms.jpg/640px-Carnegiea_gigantea_%28Saguaro_cactus%29_blossoms.jpg />",
 
-                "This is the state flower, which blooms only at night and is pollinated by bats",
-                "Is this right?"
+                "This is the state flower, they bloom only at night, and they are pollinated by bats",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1A2ABsaguaroGenus"
+                bot_answer: "genusCereusSaguaro"
             },   
             {
                 human_response: "That looks like my cactus",
@@ -734,17 +731,16 @@ human_reply: [
 },
 "1A2BAindianFigPrickly" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Indian fig opuntia / prickly pear cactus / cactus pear",
-                "Opuntia ficus-indica",
+                "Indian fig opuntia / prickly pear cactus / cactus pear (Opuntia ficus-indica)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/4/44/Opuntia_ficus-indica_%28Indian_Fig%29_at_Secunderabad%2C_AP_W_IMG_6674.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/6/62/Opuntia_ficus-indica_%28Indian_Fig%29_flowering_at_Secunderabad%2C_AP_W_IMG_6673.jpg />",
                 "The fruit is edible and is called tuna in Mexican Spanish",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1A2BAindianFigPricklyGenus"
+                bot_answer: "genusOpuntia"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -754,17 +750,16 @@ human_reply: [
 },
 "1A2CAindianFigPrickly" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Indian fig opuntia / prickly pear cactus / cactus pear",
-                "Opuntia ficus-indica",
+                "Indian fig opuntia / prickly pear cactus / cactus pear (Opuntia ficus-indica)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/4/44/Opuntia_ficus-indica_%28Indian_Fig%29_at_Secunderabad%2C_AP_W_IMG_6674.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/6/62/Opuntia_ficus-indica_%28Indian_Fig%29_flowering_at_Secunderabad%2C_AP_W_IMG_6673.jpg />",
                 "The fruit is edible and is called tuna in Mexican Spanish",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1A2CAindianFigPricklyGenus"
+                bot_answer: "genusOpuntia"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -774,17 +769,16 @@ human_reply: [
 },
 "1A2BAgiantPrickly" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Giant prinkly pear",
-                "Opuntia robusta",
+                "Giant prinkly pear (Opuntia robusta)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Opuntia_robusta_growth_form.jpg/640px-Opuntia_robusta_growth_form.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Oputniahmo.JPG/640px-Oputniahmo.JPG />",
                 "There are twelve varieties of prickly pear cacti",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1A2BAgiantPricklyGenus"
+                bot_answer: "genusOpuntia"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -794,17 +788,16 @@ human_reply: [
 },
 "1A2CAgiantPrickly" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Giant prinkly pear",
-                "Opuntia robusta",
+                "Giant prinkly pear (Opuntia robusta)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Opuntia_robusta_growth_form.jpg/640px-Opuntia_robusta_growth_form.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/en/thumb/b/b4/Oputniahmo.JPG/640px-Oputniahmo.JPG />",
                 "There are twelve varieties of prickly pear cacti",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1A2CAgiantPricklyGenus"
+                bot_answer: "genusOpuntia"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -813,18 +806,17 @@ human_reply: [
         ]
 },
 "1A2BBblueMyrtle" : {
-    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Blue myrtle cactus",
-                "Myrtillocactus geometrizans",
+    bot_says: [ "Here we go!",
+                "Blue myrtle cactus (Myrtillocactus geometrizans)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/MartillocactusUNAM.JPG/170px-MartillocactusUNAM.JPG />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Myrtillocactus_geometrizans_black.jpg/473px-Myrtillocactus_geometrizans_black.jpg />",
                 "The fruit looks like myrtle berries, hence the name",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1A2BBblueMyrtleGenus"
+                bot_answer: "genusMyrtillocactus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -833,18 +825,17 @@ human_reply: [
         ]
 },
 "1A2CBblueMyrtle" : {
-    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Blue myrtle cactus",
-                "Myrtillocactus geometrizans",
+    bot_says: [ "Here we go!",
+                "Blue myrtle cactus (Myrtillocactus geometrizans)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/MartillocactusUNAM.JPG/170px-MartillocactusUNAM.JPG />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Myrtillocactus_geometrizans_black.jpg/473px-Myrtillocactus_geometrizans_black.jpg />",
                 "The fruit looks like myrtle berries, hence the name",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1A2CBblueMyrtleGenus"
+                bot_answer: "genusMyrtillocactus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -854,17 +845,16 @@ human_reply: [
 },
 "1B2AAspruceCones" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Spruce cones / paper spine cactus",
-                "Tephrocactus articulus inermis",
+                "Spruce cones / paper spine cactus (Tephrocactus articulus inermis)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Tephrocactus_articulatus_3.jpg/106px-Tephrocactus_articulatus_3.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Opuntia_diademata_inermis_2.JPG/90px-Opuntia_diademata_inermis_2.JPG />",
                 "This cactus is originally from Argentina",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2AAspruceConesGenus"
+                bot_answer: "genusTephrocactus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -874,16 +864,16 @@ human_reply: [
 },
 "1B2AAtotemPole" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Totem pole",
-                "Lophocereus schottii",
+                "Totem pole cactus (Lophocereus schottii)",
+                "",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Totem_Pole_Cactus.JPG/512px-Totem_Pole_Cactus.JPG />",
-                "The bumps on the cacti look like stacked faces in a totem pole, hence the name",
-                "Is this right?"
+                "The bumps on the cactus look like stacked faces in a totem pole, hence the name",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2AAtotemPoleGenus"
+                bot_answer: "genusPachycereus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -893,16 +883,15 @@ human_reply: [
 },
 "1B2ABmexicanFencepost" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Mexican fencepost",
-                "Pachycereus marginatus",
+                "Mexican fencepost cactus (Pachycereus marginatus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pachycereus_marginatus_%2840259315344%29.jpg/120px-Pachycereus_marginatus_%2840259315344%29.jpg />",
-                "Often grown to be used as fences",
-                "Is this right?"
+                "This cactus is often grown to be used as fences",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2ABmexicanFencepostGenus"
+                bot_answer: "genusPachycereus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -912,16 +901,15 @@ human_reply: [
 },
 "1B2ABsenita" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Senita",
-                "Pachycereus schottii",
+                "Senita cactus (Pachycereus schottii)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Pachycereus_schottii_%285782222323%29.jpg/220px-Pachycereus_schottii_%285782222323%29.jpg />",
                 "This cactus has extreme spikes",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2ABsenitaGenus"
+                bot_answer: "genusPachycereus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -931,17 +919,16 @@ human_reply: [
 },
 "1B2ACfishhook" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Fishhook barrel / Arizona barrel cactus",
-                "Ferocactus wislizeni",
+                "Fishhook barrel / Arizona barrel cactus (Ferocactus wislizeni)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Ferocactus_wislizeni_%28Giant_Fishook_Barrel_Cactus%29_Arizona_2013.jpg/526px-Ferocactus_wislizeni_%28Giant_Fishook_Barrel_Cactus%29_Arizona_2013.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Ferocactus_wislizeni338980330.jpg/640px-Ferocactus_wislizeni338980330.jpg />",
-                "In adulthood, fishhook barrel cacti generally lean southward toward the sun, hence a nickname compass barrel cactus",
-                "Is this right?"
+                "In adulthood, fishhook barrel cacti generally lean southward toward the sun, so they are nicknamed the compass barrel cactus",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2ACfishhookGenus"
+                bot_answer: "genusFerocactus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -951,16 +938,15 @@ human_reply: [
 },
 "1B2ACargentineGiant" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Argentine giant",
-                "Echinopsis candicans",
+                "Argentine giant (Echinopsis candicans)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Echinopsis_candicans_in_bloom.jpg/220px-Echinopsis_candicans_in_bloom.jpg />",
-                "This Argentinean cacti can grow on the ground",
-                "Is this right?"
+                "This Argentinean cactus can grow on the ground",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2ACargentineGiantGenus"
+                bot_answer: "genusEchinopsis"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -970,18 +956,17 @@ human_reply: [
 },
 "1B2BAjumpingCholla" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Jumping cholla / hanging chain cholla",
-                "Cylindropuntia fulgida",
+                "Jumping cholla / hanging chain cholla (Cylindropuntia fulgida)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Opuntia_fulgida_1_-_Desert_Botanical_Garden.jpg/640px-Opuntia_fulgida_1_-_Desert_Botanical_Garden.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Jumping_Cholla_with_Stem_detached.png/220px-Jumping_Cholla_with_Stem_detached.png />",
                 "Bits of cactus will detach easily and stick to you if you brush up against it",
-                "It doesn't really jump, but the length of the spines make it sensitive to detachment due to nearby motion",
-                "Is this right?"
+                "The reason is that the length of the spines make it sensitive to detachment due to nearby motion",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2BAjumpingChollaGenus"
+                bot_answer: "genusCylindropuntia"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -991,17 +976,16 @@ human_reply: [
 },
 "1B2BAcaneCholla" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Cane cholla",
-                "Cylindropuntia imbricata",
+                "Cane cholla (Cylindropuntia imbricata)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Cylindropuntia_spinosior%2C_July_Albuquerque.jpg/220px-Cylindropuntia_spinosior%2C_July_Albuquerque.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Cylindropuntia_spinosior%2C_with_flower%2C_Albuquerque.jpg/185px-Cylindropuntia_spinosior%2C_with_flower%2C_Albuquerque.jpg />",
-                "Wild birds can live in this cactus",
-                "Is this right?"
+                "Wild birds often live in this cactus",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2BAcaneChollaGenus"
+                bot_answer: "genusCylindropuntia"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1011,18 +995,17 @@ human_reply: [
 },
 "1B2BAteddyBearCholla" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Teddy bear cholla",
-                "Cylindropuntia bigelovii",
+                "Teddy bear cholla (Cylindropuntia bigelovii)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Cylindropuntia_bigelovii.jpg/512px-Cylindropuntia_bigelovii.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/Flowering_teddy_bear_cholla_319.JPG/640px-Flowering_teddy_bear_cholla_319.JPG />",
                 "Bits of cactus will detach easily and stick to you if you brush up against it",
-                "If this cactus sticks to you, a good method to remove the cactus is with a hair comb",
-                "Is this right?"
+                "The reason is that the length of the spines make it sensitive to detachment due to nearby motion",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2BAteddyBearChollaGenus"
+                bot_answer: "genusCylindropuntia"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1032,17 +1015,16 @@ human_reply: [
 },
 "1B2BBocotillo" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Ocotillo",
-                "Fouquieria splendens",
+                "Ocotillo (Fouquieria splendens)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8a/Ocotillo_GB.jpg/220px-Ocotillo_GB.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Ocotillo-with-bee.jpg/120px-Ocotillo-with-bee.jpg />",
                 "The flowers can be edible and the entire plant has various medical uses",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2BBocotilloGenus"
+                bot_answer: "genusFouquieria"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1052,17 +1034,16 @@ human_reply: [
 },
 "1B2BBqueenOfTheNight" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Arizona queen of the night / Reina de la noche",
-                "Peniocereus greggii",
+                "Arizona queen of the night / Reina de la noche (Peniocereus greggii)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Peniocereus_Greggii_Sahuarita_Arizona_2014.jpg/200px-Peniocereus_Greggii_Sahuarita_Arizona_2014.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Cereus_greggii_flower.jpg/220px-Cereus_greggii_flower.jpg />",
-                "One night a year in June or July, these cacti bloom, closing and wasting away in only a few hours",
-                "Is this right?"
+                "One night a year in June or July, this cactus blooms, and then the flowers close and waste away by morning",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2BBqueenOfTheNightGenus"
+                bot_answer: "genusPeniocereus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1072,16 +1053,15 @@ human_reply: [
 },
 "1B2BBchaparralPrickly" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Chaparral prickly pear",
-                "Opuntia oricola",
+                "Chaparral prickly pear (Opuntia oricola)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Opuntia_oricola_3.jpg/220px-Opuntia_oricola_3.jpg />",
                 "Its native habitat is in chaparral habitats (Californian shrubs and grasses)",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2BBchaparralPricklyGenus"
+                bot_answer: "genusOpuntia"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1091,17 +1071,16 @@ human_reply: [
 },
 "1B2CAbuckhornCholla" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Buckhorn cholla",
-                "Cylindropuntia acanthocarpa",
+                "Buckhorn cholla (Cylindropuntia acanthocarpa)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Buckhorn_Cholla.JPG/220px-Buckhorn_Cholla.JPG />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e1/Opuntia_acanthocarpa.jpg/593px-Opuntia_acanthocarpa.jpg />",
-                "This cacti guards your yard",
-                "Is this right?"
+                "This cactus guards your yard",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2CAbuckhornChollaGenus"
+                bot_answer: "genusCylindropuntia"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1111,16 +1090,15 @@ human_reply: [
 },
 "1B2CAcottonTop" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Cotton top cactus",
-                "Echinocactus polycephalus",
+                "Cotton top cactus (Echinocactus polycephalus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Echinocactus_polycephalus.jpeg/220px-Echinocactus_polycephalus.jpeg />",
-                "These are difficult to cultivate",
-                "Is this right?"
+                "This cactus is difficult to cultivate",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2CAcottonTopGenus"
+                bot_answer: "genusEchinocactus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1130,18 +1108,17 @@ human_reply: [
 },
 "1B2CAhedgehog" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Hedgehog / claretcup / kingcup cactus",
-                "Echinocereus triglochidiatus var. arizonicus",
+                "Hedgehog / claretcup / kingcup cactus (Echinocereus triglochidiatus var. arizonicus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Echinocereus_triglochidiatusUGA0807034.jpg/220px-Echinocereus_triglochidiatusUGA0807034.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/72/Echinocereus_triglochidiatus_0001.jpg/220px-Echinocereus_triglochidiatus_0001.jpg />",
                 "One of these varieties is endangered, so please leave it be",
                 "The flowers are pollinated by hummingbirds",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2CAhedgehogGenus"
+                bot_answer: "genusEchinocereus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1151,18 +1128,17 @@ human_reply: [
 },
 "1B2CAarizonaHedgehog" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Arizona hedgehog cactus",
-                "Echinocereus arizonicus",
+                "Arizona hedgehog cactus (Echinocereus arizonicus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Echinocereus_triglochidiatus_arizonicus_flower.jpg/220px-Echinocereus_triglochidiatus_arizonicus_flower.jpg />",
                 "<img src= />",
                 "This cactus is endangered, so please leave it be",
-                "Their native habitats are the mountains, particularly the Superstition, Mescal, and Pinal Mountains",
-                "Is this right?"
+                "The native habitat for this cactus is in the Superstition, Mescal, and Pinal Mountains",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2CAarizonaHedgehogGenus"
+                bot_answer: "genusEchinocereus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1172,17 +1148,16 @@ human_reply: [
 },
 "1B2CBbeavertailPrickly" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Beavertail prickly pear",
-                "Opuntia basilaris",
+                "Beavertail prickly pear (Opuntia basilaris)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Wild_Opuntia_basilaris.jpg/680px-Wild_Opuntia_basilaris.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Joshua_Tree_National_Park_-_Beavertail_Cactus_%28Opuntia_basilaris%29_-_12.jpg/181px-Joshua_Tree_National_Park_-_Beavertail_Cactus_%28Opuntia_basilaris%29_-_12.jpg />",
                 "There are twelve varieties of prickly pear cacti",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2CBbeavertailPricklyGenus"
+                bot_answer: "genusOpuntia"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1192,16 +1167,15 @@ human_reply: [
 },
 "1B2CBpancakePrickly" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Pancake prickly pear / flapjack prickly pear",
-                "Opuntia chlorotica",
+                "Pancake prickly pear / flapjack prickly pear (Opuntia chlorotica)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Opuntia_chlorotica_7.jpg/220px-Opuntia_chlorotica_7.jpg />",
                 "Analysis has shown that this species has existed in the region since the Wisconsin glaciation age (21,000 - 25,000 years ago)",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2CBpancakePricklyGenus"
+                bot_answer: "genusOpuntia"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1211,17 +1185,16 @@ human_reply: [
 },
 "1B2CBengelmannPrickly" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Engelmann&rsquo;s prickly pear",
-                "Opuntia engelmannii",
+                "Engelmann&rsquo;s prickly pear (Opuntia engelmannii)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Opuntia_engelmannii_-_Pricklypearcrop.jpg/220px-Opuntia_engelmannii_-_Pricklypearcrop.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Desert-Flower.jpg/220px-Desert-Flower.jpg />",
                 "Birds love the fruit from this cactus",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2CBengelmannPricklyGenus"
+                bot_answer: "genusOpuntia"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1231,17 +1204,16 @@ human_reply: [
 },
 "1B2CBvioletPrickly" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Violet prickly pear",
-                "Opuntia gosseliniana",
+                "Violet prickly pear (Opuntia gosseliniana)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Opuntia_gosseliniana.JPG/220px-Opuntia_gosseliniana.JPG />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Opuntia_santa-rita_2.jpg/220px-Opuntia_santa-rita_2.jpg />",
                 "There is still taxonomical disagreement on this prickly pear species with a few others, including some hybrids",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2CBvioletPricklyGenus"
+                bot_answer: "genusOpuntia"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1251,18 +1223,17 @@ human_reply: [
 },
 "1B2CBpurplePrickly" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Purple pricklypear",
-                "Opuntia macrocentra",
+                "Purple pricklypear (Opuntia macrocentra)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Opuntia_macrocentra_01.jpg/220px-Opuntia_macrocentra_01.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Opuntia_macrocentra_02.jpg/81px-Opuntia_macrocentra_02.jpg />",
                 "Some varieties of this cactus are protected from having their fruit harvested",
-                "The purple color comes from a pigment that becomes more evident when the plant is stressed by drought or cold",
-                "Is this right?"
+                "The purple color comes from a pigment that becomes more evident when the cactus is stressed by drought or cold",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2CBpurplePricklyGenus"
+                bot_answer: "genusOpuntia"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1271,18 +1242,17 @@ human_reply: [
         ]
 },
 "1B2CCdesertChristmas" : {
-    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Desert Christmas cactus",
-                "Cylindropuntia leptocaulis",
+    bot_says: [ "Here we go!",
+                "Desert Christmas cactus (Cylindropuntia leptocaulis)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Cylindropuntialeptocaulis.jpg/511px-Cylindropuntialeptocaulis.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c4/Desert_Christmas_Cactus_Sahuarita_Arizona.jpg/120px-Desert_Christmas_Cactus_Sahuarita_Arizona.jpg />",
                 "The juice of the berries has an intoxicating effect",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2CCdesertChristmasGenus"
+                bot_answer: "genusCylindropuntia"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1292,16 +1262,15 @@ human_reply: [
 },
 "1B2DAargentineHedgehog" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Argentine hedgehog",
-                "Echinopsis huascha",
+                "Argentine hedgehog (Echinopsis huascha)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/2008_07_Botanical_Garden_Meran_71610R0413.jpg/220px-2008_07_Botanical_Garden_Meran_71610R0413.jpg />",
                 "This cactus is native to Argentina",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2DAargentineHedgehogGenus"
+                bot_answer: "genusEchinocereus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1311,17 +1280,16 @@ human_reply: [
 },
 "1B2DAgoldenBarrel" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Golden barrel cactus",
-                "Echinocactus grusonii",
+                "Golden barrel cactus (Echinocactus grusonii)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Golden_Barrel_cactus%2C_Huntington_Desert_Garden.jpg/250px-Golden_Barrel_cactus%2C_Huntington_Desert_Garden.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/25/Echinocactus_grusonii_%28aka%29.jpg/220px-Echinocactus_grusonii_%28aka%29.jpg />",
-                "They will flower after 20 years and have a total lifespan of 30 years",
-                "Is this right?"
+                "This cactus will flower after 20 years and have a total lifespan of 30 years",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2DAgoldenBarrelGenus"
+                bot_answer: "genusEchinocactus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1331,17 +1299,16 @@ human_reply: [
 },
 "1B2DBdevilshead" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Devilshead cactus",
-                "Echinocactus horizonthalonius",
+                "Devilshead cactus (Echinocactus horizonthalonius)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Echinocactus_horizonthalonius_1.jpg/220px-Echinocactus_horizonthalonius_1.jpg />",
                 "One of these varieties is federally protected, so please leave it be",
-                "Another name for this is the horse crippler cactus",
-                "Is this right?"
+                "Another name for this cactus is the horse crippler cactus",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2DBdevilsheadGenus"
+                bot_answer: "genusEchinocactus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1351,17 +1318,17 @@ human_reply: [
 },
 "1B2DBcompass" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Compass barrel",
-                "Ferocactus cylindraceus",
+                "Compass barrel (Ferocactus cylindraceus)",
+                "",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Ferocactus_cylindraceus_1.jpg/220px-Ferocactus_cylindraceus_1.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Ferocactus_cylindraceus_2.jpg/200px-Ferocactus_cylindraceus_2.jpg />",
-                "Other names include California barrel cactus, desert barrel cactus, and miner's compass",
-                "Is this right?"
+                "Other names for this cactus include California barrel cactus, desert barrel cactus, and miner's compass",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1B2DBcompassGenus"
+                bot_answer: "genusFerocactus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1370,18 +1337,17 @@ human_reply: [
         ]
 },
 "1C2BAengelmannHedgehog" : {
-    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Engelmann&rsquo;s hedgehog",
-                "Echinocereus engelmannii",
+    bot_says: [ "Here we go!",
+                "Engelmann&rsquo;s hedgehog (Echinocereus engelmannii)",
                 "<img src=https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Strawberry_Hedgehog.jpg/220px-Strawberry_Hedgehog.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Echinocereus_engelmannii_10.jpg/220px-Echinocereus_engelmannii_10.jpg />",
-                "It usually does not bloom in cultivation until it develops 2 to 3 branches",
-                "Is this right?"
+                "This cactus usually does not bloom in cultivation until it develops 2 to 3 branches",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1C2BAengelmannHedgehogGenus"
+                bot_answer: "genusEchinocereus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1390,18 +1356,17 @@ human_reply: [
         ]
 },
 "1C2CAengelmannHedgehog" : {
-    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Engelmann&rsquo;s hedgehog",
-                "Echinocereus engelmannii",
+    bot_says: [ "Here we go!",
+                "Engelmann&rsquo;s hedgehog (Echinocereus engelmannii)",
                 "<img src=https://upload.wikimedia.org/wikipedia/en/thumb/6/61/Strawberry_Hedgehog.jpg/220px-Strawberry_Hedgehog.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Echinocereus_engelmannii_10.jpg/220px-Echinocereus_engelmannii_10.jpg />",
-                "It usually does not bloom in cultivation until it develops 2 to 3 branches",
-                "Is this right?"
+                "This cactus usually does not bloom in cultivation until it develops 2 to 3 branches",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1C2CAengelmannHedgehogGenus"
+                bot_answer: "genusEchinocereus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1410,17 +1375,16 @@ human_reply: [
         ]
 },
 "1C2BBpinkflower" : {
-    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Pinkflower hedgehog cactus / strawberry cactus",
-                "Echinocereus fasciculatus",
+    bot_says: [ "Here we go!",
+                "Pinkflower hedgehog cactus / strawberry cactus (Echinocereus fasciculatus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Echinocereus_fasciculatus.jpg/220px-Echinocereus_fasciculatus.jpg />",
                 "The flowers look so sweet, but are surrounded by fierce needles",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1C2BBpinkflowerGenus"
+                bot_answer: "genusEchinocereus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1429,16 +1393,16 @@ human_reply: [
         ]
 },
 "1C2CBpinkflower" : {
-    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Pinkflower hedgehog cactus / strawberry cactus",
-                "Echinocereus fasciculatus",
+    bot_says: [ "Here we go!",
+                "Pinkflower hedgehog cactus / strawberry cactus (Echinocereus fasciculatus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Echinocereus_fasciculatus.jpg/220px-Echinocereus_fasciculatus.jpg />",
                 "The flowers look so sweet, but are surrounded by fierce needles",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1C2CBpinkflowerGenus"
+                bot_answer: "genusEchinocereus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1448,17 +1412,16 @@ human_reply: [
 },
 "1C2DAsandDollar" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Sand dollar cactus / star cactus",
-                "Astrophytum asterias",
+                "Sand dollar cactus / star cactus (Astrophytum asterias)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/3/37/Astrophytum_asterias1.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Astrophytum_asterias_23.JPG/576px-Astrophytum_asterias_23.JPG />",
-                "These have been a houseplant since the 1840s",
-                "Is this right?"
+                "This cactus has been a houseplant since the 1840s",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1C2DAsandDollarGenus"
+                bot_answer: "genusAstrophytum"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1468,16 +1431,15 @@ human_reply: [
 },
 "1C2DApincushion" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Pincushion cactus",
-                "Pediocactus",
+                "Pincushion cactus (Pediocactus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Pediocactus_simpsonii.jpg/220px-Pediocactus_simpsonii.jpg />",
                 "Pediocactus means flat cactus",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1C2DApincushionGenus"
+                bot_answer: "genusPediocactus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1486,18 +1448,17 @@ human_reply: [
         ]
 },
 "1C2AAlittleBarrel" : {
-    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Little barrel cactus / hard cactus",
-                "Sclerocactus",
+    bot_says: [ "Here we go!",
+                "Little barrel cactus / hard cactus (Sclerocactus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sclerocactus_wrightiae.jpg/220px-Sclerocactus_wrightiae.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sclerocactus_parviflorus_fh_51_AZ_B.jpg/200px-Sclerocactus_parviflorus_fh_51_AZ_B.jpg />",
-                "This cactus deflates in late fall by pushing water out of the roots,and into the soil, dramatically decreasing in size in preparation for winter",
-                "Is this right?"
+                "This cactus deflates in late fall by pushing water out of the roots and into the soil, dramatically decreasing in size in preparation for winter",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1C2AAlittleBarrelGenus"
+                bot_answer: "genusSclerocactus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1507,17 +1468,16 @@ human_reply: [
 },
 "1C2DBlittleBarrel" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Little barrel cactus / hard cactus",
-                "Sclerocactus",
+                "Little barrel cactus / hard cactus (Sclerocactus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sclerocactus_wrightiae.jpg/220px-Sclerocactus_wrightiae.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sclerocactus_parviflorus_fh_51_AZ_B.jpg/200px-Sclerocactus_parviflorus_fh_51_AZ_B.jpg />",
-                "This cactus deflates in late fall by pushing water out of the roots,and into the soil, dramatically decreasing in size in preparation for winter",
-                "Is this right?"
+                "This cactus deflates in late fall by pushing water out of the roots and into the soil, dramatically decreasing in size in preparation for winter",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1C2DBlittleBarrelGenus"
+                bot_answer: "genusSclerocactus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1526,18 +1486,17 @@ human_reply: [
         ]
 },
 "1C2ABcommonFishhook" : {
-    bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Common fishhook cactus",
-                "Mammillaria tetrancistra",
+    bot_says: [ "Here we go!",
+                "Common fishhook cactus (Mammillaria tetrancistra)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Mammillaria_tetrancistra_Anza-Borrego.jpg/220px-Mammillaria_tetrancistra_Anza-Borrego.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Mammillaria_tetrancistra_7.jpg/220px-Mammillaria_tetrancistra_7.jpg />",
                 "The seeds are black and partially exposed through the red flesh of the fruit",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1C2ABcommonFishhookGenus"
+                bot_answer: "genusMammillaria"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1547,17 +1506,16 @@ human_reply: [
 },
 "1C2DBcommonFishhook" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Common fishhook cactus",
-                "Mammillaria tetrancistra",
+                "Common fishhook cactus (Mammillaria tetrancistra)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5d/Mammillaria_tetrancistra_Anza-Borrego.jpg/220px-Mammillaria_tetrancistra_Anza-Borrego.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Mammillaria_tetrancistra_7.jpg/220px-Mammillaria_tetrancistra_7.jpg />",
                 "The seeds are black and partially exposed through the red flesh of the fruit",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1C2DBcommonFishhookGenus"
+                bot_answer: "genusMammillaria"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1567,17 +1525,16 @@ human_reply: [
 },
 "1C2DCredspinePineapple" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Redspine fishhook cactus / red pineapple cactus",
-                "Echinomastus erectocentrus",
+                "Redspine fishhook cactus / red pineapple cactus (Echinomastus erectocentrus)",
                 "<img src=https://www.flickr.com/photos/lonqueta/5681560518 />",
                 "The variety in Pinal County and the northern Sonoran desert are endangered, so please leave it be",
-                "If new plants cannot grow in the wild, it could be extinct by 2070",
-                "Is this right?"
+                "If new plants cannot grow in the wild, this cactus could be extinct by 2070",
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1C2DCredspinePineappleGenus"
+                bot_answer: "genusEchinomastus"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1587,18 +1544,17 @@ human_reply: [
 },
 "1C2DCpimaPineapple" : {
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
-                "Pima pineapple",
-                "Coryphantha robustispina",
+                "Pima pineapple (Coryphantha robustispina)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Pima_Pineapple_Cactus_Cluster_Sahuarita_Arizona_2014.jpg/640px-Pima_Pineapple_Cactus_Cluster_Sahuarita_Arizona_2014.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/39/Mammillaria_scheerii.jpg/458px-Mammillaria_scheerii.jpg />",
                 "This cactus is federally protected, so please leave it be",
                 "The pods must be eaten by a jack rabbit, though not a cottontail as its teeth will damage the seeds",
-                "Is this right?"
+                "Does this look like your cactus?"
         ],
     human_reply: [  
             {
                 human_response: "Hmmm, maybe not",
-                bot_answer: "1C2DCpimaPineappleGenus"
+                bot_answer: "genusCoryphantha"
             },   
             {                
                 human_response: "That looks like my cactus",
@@ -1608,10 +1564,9 @@ human_reply: [
 },
 // end 5
 // 6 - genus / backup for cactus
-"1A2AAorganPipeGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Ceroid cacti",
-                "Cereus",    
+"genusCereus" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "Ceroid cacti (Cereus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Cereus-peruvians1.jpg/220px-Cereus-peruvians1.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flor_de_Mandacaru%2C_Guaruj%C3%A1%2C_S%C3%A3o_Paulo.jpg/640px-Flor_de_Mandacaru%2C_Guaruj%C3%A1%2C_S%C3%A3o_Paulo.jpg />",
                 "These cacti were first described in a book by Tabernaemontanus published in 1625",
@@ -1628,10 +1583,9 @@ human_reply: [
             }
         ]
 },
-"1A2AAhildmannGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Ceroid cacti",
-                "Cereus",    
+"genusCereusSaguaro" : {
+    bot_says: [ "A saguaro is the only species in its genus, Carnegiea. They are also very distinct. Maybe your cactus belongs in a different genus?",
+                "Ceroid cacti (Cereus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Cereus-peruvians1.jpg/220px-Cereus-peruvians1.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flor_de_Mandacaru%2C_Guaruj%C3%A1%2C_S%C3%A3o_Paulo.jpg/640px-Flor_de_Mandacaru%2C_Guaruj%C3%A1%2C_S%C3%A3o_Paulo.jpg />",
                 "These cacti were first described in a book by Tabernaemontanus published in 1625",
@@ -1648,30 +1602,9 @@ human_reply: [
             }
         ]
 },
-"1A2ABsaguaroGenus" : {
-    bot_says: [ "A saguaro is the only species in its genus, Carnegiea. They are also very distinct. Maybe it's one of these?",
-                "Ceroid cacti",
-                "Cereus",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Cereus-peruvians1.jpg/220px-Cereus-peruvians1.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Flor_de_Mandacaru%2C_Guaruj%C3%A1%2C_S%C3%A3o_Paulo.jpg/640px-Flor_de_Mandacaru%2C_Guaruj%C3%A1%2C_S%C3%A3o_Paulo.jpg />",
-                "These cacti were first described in a book by Tabernaemontanus published in 1625",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1A2BAindianFigPricklyGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Prickly pear cacti",
-                "Opuntia",    
+"genusOpuntia" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "Prickly pear cacti (Opuntia)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Opuntia_littoralis_var_vaseyi_4.jpg/220px-Opuntia_littoralis_var_vaseyi_4.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Prickly_Pear_Closeup.jpg/220px-Prickly_Pear_Closeup.jpg />",
                 "These cacti are named for the Ancient Greek city of Opus, famous for an edible plant; many fruits in this genus are edible",
@@ -1688,70 +1621,9 @@ human_reply: [
             }
         ]
 },
-"1A2CAindianFigPricklyGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Prickly pear cacti",
-                "Opuntia",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Opuntia_littoralis_var_vaseyi_4.jpg/220px-Opuntia_littoralis_var_vaseyi_4.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Prickly_Pear_Closeup.jpg/220px-Prickly_Pear_Closeup.jpg />",
-                "These cacti are named for the Ancient Greek city of Opus, famous for an edible plant; many fruits in this genus are edible",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1A2BAgiantPricklyGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Prickly pear cacti",
-                "Opuntia",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Opuntia_littoralis_var_vaseyi_4.jpg/220px-Opuntia_littoralis_var_vaseyi_4.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Prickly_Pear_Closeup.jpg/220px-Prickly_Pear_Closeup.jpg />",
-                "These cacti are named for the Ancient Greek city of Opus, famous for an edible plant; many fruits in this genus are edible",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1A2CAgiantPricklyGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Prickly pear cacti",
-                "Opuntia",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Opuntia_littoralis_var_vaseyi_4.jpg/220px-Opuntia_littoralis_var_vaseyi_4.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Prickly_Pear_Closeup.jpg/220px-Prickly_Pear_Closeup.jpg />",
-                "These cacti are named for the Ancient Greek city of Opus, famous for an edible plant; many fruits in this genus are edible",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1A2BBblueMyrtleGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Blueberry cacti",
-                "Myrtillocactus",    
+"genusMyrtillocactus" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "Blueberry cacti (Myrtillocactus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Myrtillocactus_geometrizans3.jpg/220px-Myrtillocactus_geometrizans3.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/P%C3%A1jara_La_Lajita_-_Oasis_Park_-_Myrtillocactus_geometrizans_03_ies.jpg/120px-P%C3%A1jara_La_Lajita_-_Oasis_Park_-_Myrtillocactus_geometrizans_03_ies.jpg />",
                 "These cacti flower in the summer and have edible purple berries",
@@ -1768,30 +1640,9 @@ human_reply: [
             }
         ]
 },
-"1A2CBblueMyrtleGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Blueberry cacti",
-                "Myrtillocactus",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Myrtillocactus_geometrizans3.jpg/220px-Myrtillocactus_geometrizans3.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/P%C3%A1jara_La_Lajita_-_Oasis_Park_-_Myrtillocactus_geometrizans_03_ies.jpg/120px-P%C3%A1jara_La_Lajita_-_Oasis_Park_-_Myrtillocactus_geometrizans_03_ies.jpg />",
-                "These cacti flower in the summer and have edible purple berries",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2AAspruceConesGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Ash-colored cacti",
-                "Tephrocactus",    
+"genusTephrocactus" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "Ash-colored cacti (Tephrocactus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Tephrocactus_articulatus_3.jpg/220px-Tephrocactus_articulatus_3.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Tephrocactus_articulatus_var._papyracanthus0.jpg/791px-Tephrocactus_articulatus_var._papyracanthus0.jpg />",
                 "str",
@@ -1808,10 +1659,9 @@ human_reply: [
             }
         ]
 },
-"1B2AAtotemPoleGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "'Thick torch' cacti",
-                "Pachycereus",    
+"genusPachycereus" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "'Thick torch' cacti (Pachycereus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pachycereus_marginatus_%2840259315344%29.jpg/120px-Pachycereus_marginatus_%2840259315344%29.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/P%C3%A1jara_La_Lajita_-_Oasis_Park_-_Pachycereus_schottii_02_ies.jpg/120px-P%C3%A1jara_La_Lajita_-_Oasis_Park_-_Pachycereus_schottii_02_ies.jpg />",
                 "They might be referred to as the Lophocereus or Marginatocereus genii",
@@ -1828,50 +1678,9 @@ human_reply: [
             }
         ]
 },
-"1B2ABmexicanFencepostGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "'Thick torch' cacti",
-                "Pachycereus",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pachycereus_marginatus_%2840259315344%29.jpg/120px-Pachycereus_marginatus_%2840259315344%29.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/P%C3%A1jara_La_Lajita_-_Oasis_Park_-_Pachycereus_schottii_02_ies.jpg/120px-P%C3%A1jara_La_Lajita_-_Oasis_Park_-_Pachycereus_schottii_02_ies.jpg />",
-                "They might be referred to as the Lophocereus or Marginatocereus genii",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2ABsenitaGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "'Thick torch' cacti",
-                "Pachycereus",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Pachycereus_marginatus_%2840259315344%29.jpg/120px-Pachycereus_marginatus_%2840259315344%29.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/P%C3%A1jara_La_Lajita_-_Oasis_Park_-_Pachycereus_schottii_02_ies.jpg/120px-P%C3%A1jara_La_Lajita_-_Oasis_Park_-_Pachycereus_schottii_02_ies.jpg />",
-                "They might be referred to as the Lophocereus or Marginatocereus genii",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2ACfishhookGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Barrel cacti",
-                "Ferocactus",    
+"genusFerocactus" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "Barrel cacti (Ferocactus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Ferocactus_glaucescens_Prg1.jpg/220px-Ferocactus_glaucescens_Prg1.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Ferocactus_cylindraceus_12.jpg/220px-Ferocactus_cylindraceus_12.jpg />",
                 "These cacti are great houseplants because they need full sun and little water",
@@ -1888,10 +1697,9 @@ human_reply: [
             }
         ]
 },
-"1B2ACargentineGiantGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Hedgehog cacti",
-                "Echinopsis",    
+"genusEchinopsis" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "Hedgehog cacti (Echinopsis)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Lightmatter_cactusflower.jpg/220px-Lightmatter_cactusflower.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Echinopsis_oxygona13213404.jpg/700px-Echinopsis_oxygona13213404.jpg />",
                 "They are more columnar and have more beautiful flowers than other commonly-called hedgehog cacti (Echinocereus and Cereus), but come in many different shapes",
@@ -1908,10 +1716,9 @@ human_reply: [
             }
         ]
 },
-"1B2BAjumpingChollaGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Chollas",
-                "Cylindropuntia",    
+"genusCylindropuntia" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "Chollas (Cylindropuntia)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Opuntia_fulgida_1_-_Desert_Botanical_Garden.jpg/640px-Opuntia_fulgida_1_-_Desert_Botanical_Garden.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Buckhorn_Cholla.JPG/180px-Buckhorn_Cholla.JPG />",
                 "These cacti are known for their barbed spikes that attach to skin, clothing, and fur",
@@ -1928,50 +1735,9 @@ human_reply: [
             }
         ]
 },
-"1B2BAcaneChollaGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Chollas",
-                "Cylindropuntia",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Opuntia_fulgida_1_-_Desert_Botanical_Garden.jpg/640px-Opuntia_fulgida_1_-_Desert_Botanical_Garden.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Buckhorn_Cholla.JPG/180px-Buckhorn_Cholla.JPG />",
-                "These cacti are known for their barbed spikes that attach to skin, clothing, and fur",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2BAteddyBearChollaGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Chollas",
-                "Cylindropuntia",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Opuntia_fulgida_1_-_Desert_Botanical_Garden.jpg/640px-Opuntia_fulgida_1_-_Desert_Botanical_Garden.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Buckhorn_Cholla.JPG/180px-Buckhorn_Cholla.JPG />",
-                "These cacti are known for their barbed spikes that attach to skin, clothing, and fur",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2BBocotilloGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Desert trees",
-                "Fouquieria",    
+"genusFouquieria" : {
+    bot_says: [ "Ok. Maybe it's another plant in the same genus?",
+                "Desert trees (Fouquieria)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/32/Ocotillo-400px.jpg/220px-Ocotillo-400px.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Cirio_columnaris%2C_boojum_tree.jpg/220px-Cirio_columnaris%2C_boojum_tree.jpg />",
                 "They are unrelated to cacti, but are not more closely related to trees; they are kind of on their own",
@@ -1988,10 +1754,9 @@ human_reply: [
             }
         ]
 },
-"1B2BBqueenOfTheNightGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Desert night-blooming cacti",
-                "Peniocereus",    
+"genusPeniocereus" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "Desert night-blooming cacti (Peniocereus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Peniocereus_Greggii_Sahuarita_Arizona_2014.jpg/200px-Peniocereus_Greggii_Sahuarita_Arizona_2014.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/75/Night-Blooming_Cereus_Sonora.jpg/220px-Night-Blooming_Cereus_Sonora.jpg />",
                 "These cacti have thin stalks and are viney",
@@ -2008,250 +1773,9 @@ human_reply: [
             }
         ]
 },
-"1B2BBchaparralPricklyGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Prickly pear cacti",
-                "Opuntia",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Opuntia_littoralis_var_vaseyi_4.jpg/220px-Opuntia_littoralis_var_vaseyi_4.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Prickly_Pear_Closeup.jpg/220px-Prickly_Pear_Closeup.jpg />",
-                "These cacti are named for the Ancient Greek city of Opus, famous for an edible plant; many fruits in this genus are edible",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2CAbuckhornChollaGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Chollas",
-                "Cylindropuntia",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Opuntia_fulgida_1_-_Desert_Botanical_Garden.jpg/640px-Opuntia_fulgida_1_-_Desert_Botanical_Garden.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Buckhorn_Cholla.JPG/180px-Buckhorn_Cholla.JPG />",
-                "These cacti are known for their barbed spikes that attach to skin, clothing, and fur",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2CAcottonTopGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Commonname",
-                "Echinocactus",    
-                "<img src= />",
-                "<img src= />",
-                "str",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2CAhedgehogGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Hedgehog cacti",
-                "Echinocereus",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Echinocereus_virdiflorus.JPG/220px-Echinocereus_virdiflorus.JPG />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Echinocereus_stramineus_1.JPG/220px-Echinocereus_stramineus_1.JPG />",
-                "The flowers are generally longer lasting than most flowers and are low maintenance",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2CAarizonaHedgehogGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Hedgehog cacti",
-                "Echinocereus",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Echinocereus_virdiflorus.JPG/220px-Echinocereus_virdiflorus.JPG />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Echinocereus_stramineus_1.JPG/220px-Echinocereus_stramineus_1.JPG />",
-                "The flowers are generally longer lasting than most flowers and are low maintenance",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2CBbeavertailPricklyGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Prickly pear cacti",
-                "Opuntia",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Opuntia_littoralis_var_vaseyi_4.jpg/220px-Opuntia_littoralis_var_vaseyi_4.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Prickly_Pear_Closeup.jpg/220px-Prickly_Pear_Closeup.jpg />",
-                "These cacti are named for the Ancient Greek city of Opus, famous for an edible plant; many fruits in this genus are edible",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2CBpancakePricklyGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Prickly pear cacti",
-                "Opuntia",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Opuntia_littoralis_var_vaseyi_4.jpg/220px-Opuntia_littoralis_var_vaseyi_4.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Prickly_Pear_Closeup.jpg/220px-Prickly_Pear_Closeup.jpg />",
-                "These cacti are named for the Ancient Greek city of Opus, famous for an edible plant; many fruits in this genus are edible",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2CBengelmannPricklyGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Prickly pear cacti",
-                "Opuntia",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Opuntia_littoralis_var_vaseyi_4.jpg/220px-Opuntia_littoralis_var_vaseyi_4.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Prickly_Pear_Closeup.jpg/220px-Prickly_Pear_Closeup.jpg />",
-                "These cacti are named for the Ancient Greek city of Opus, famous for an edible plant; many fruits in this genus are edible",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2CBvioletPricklyGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Prickly pear cacti",
-                "Opuntia",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Opuntia_littoralis_var_vaseyi_4.jpg/220px-Opuntia_littoralis_var_vaseyi_4.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Prickly_Pear_Closeup.jpg/220px-Prickly_Pear_Closeup.jpg />",
-                "These cacti are named for the Ancient Greek city of Opus, famous for an edible plant; many fruits in this genus are edible",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2CBpurplePricklyGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Prickly pear cacti",
-                "Opuntia",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Opuntia_littoralis_var_vaseyi_4.jpg/220px-Opuntia_littoralis_var_vaseyi_4.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Prickly_Pear_Closeup.jpg/220px-Prickly_Pear_Closeup.jpg />",
-                "These cacti are named for the Ancient Greek city of Opus, famous for an edible plant; many fruits in this genus are edible",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2CCdesertChristmasGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Chollas",
-                "Cylindropuntia",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/Opuntia_fulgida_1_-_Desert_Botanical_Garden.jpg/640px-Opuntia_fulgida_1_-_Desert_Botanical_Garden.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Buckhorn_Cholla.JPG/180px-Buckhorn_Cholla.JPG />",
-                "These cacti are known for their barbed spikes that attach to skin, clothing, and fur",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2DAargentineHedgehogGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Hedgehog cacti",
-                "Echinocereus",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Echinocereus_virdiflorus.JPG/220px-Echinocereus_virdiflorus.JPG />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Echinocereus_stramineus_1.JPG/220px-Echinocereus_stramineus_1.JPG />",
-                "The flowers are generally longer lasting than most flowers and are low maintenance",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2DAgoldenBarrelGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Barrel cacti",
-                "Echinocactus",    
+"genusEchinocactus" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "Barrel cacti (Echinocactus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Echinocactus_grusonii_Cactaceae.jpg/640px-Echinocactus_grusonii_Cactaceae.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Homalocephala_texensis.jpg/120px-Homalocephala_texensis.jpg />",
                 "They are differentiated from ferocacti because of their wooly fruit",
@@ -2268,50 +1792,9 @@ human_reply: [
             }
         ]
 },
-"1B2DBdevilsheadGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Barrel cacti",
-                "Echinocactus",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/1/1f/Echinocactus_grusonii_Cactaceae.jpg/640px-Echinocactus_grusonii_Cactaceae.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Homalocephala_texensis.jpg/120px-Homalocephala_texensis.jpg />",
-                "They are differentiated from ferocacti because of their wooly fruit",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1B2DBcompassGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Barrel cacti",
-                "Ferocactus",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/Ferocactus_glaucescens_Prg1.jpg/220px-Ferocactus_glaucescens_Prg1.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Ferocactus_cylindraceus_12.jpg/220px-Ferocactus_cylindraceus_12.jpg />",
-                "These cacti are great houseplants because they need full sun and little water",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1C2BAengelmannHedgehogGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Hedgehog cacti",
-                "Echinocereus",    
+"genusEchinocereus" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "Hedgehog cacti (Echinocereus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Echinocereus_virdiflorus.JPG/220px-Echinocereus_virdiflorus.JPG />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Echinocereus_stramineus_1.JPG/220px-Echinocereus_stramineus_1.JPG />",
                 "The flowers are generally longer lasting than most flowers and are low maintenance",
@@ -2328,70 +1811,9 @@ human_reply: [
             }
         ]
 },
-"1C2CAengelmannHedgehogGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Hedgehog cacti",
-                "Echinocereus",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Echinocereus_virdiflorus.JPG/220px-Echinocereus_virdiflorus.JPG />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Echinocereus_stramineus_1.JPG/220px-Echinocereus_stramineus_1.JPG />",
-                "The flowers are generally longer lasting than most flowers and are low maintenance",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1C2BBpinkflowerGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Hedgehog cacti",
-                "Echinocereus",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Echinocereus_virdiflorus.JPG/220px-Echinocereus_virdiflorus.JPG />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Echinocereus_stramineus_1.JPG/220px-Echinocereus_stramineus_1.JPG />",
-                "The flowers are generally longer lasting than most flowers and are low maintenance",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1C2CBpinkflowerGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Hedgehog cacti",
-                "Echinocereus",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/Echinocereus_virdiflorus.JPG/220px-Echinocereus_virdiflorus.JPG />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/Echinocereus_stramineus_1.JPG/220px-Echinocereus_stramineus_1.JPG />",
-                "The flowers are generally longer lasting than most flowers and are low maintenance",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1C2DAsandDollarGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "'Star' cacti",
-                "Astrophytum",    
+"genusAstrophytum" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "'Star' cacti (Astrophytum)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/7/7d/Astrophytum_asterias_30.JPG/640px-Astrophytum_asterias_30.JPG />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/43/Astrophytum_myriostigma_first_flower.jpg/120px-Astrophytum_myriostigma_first_flower.jpg />",
                 "They are often referred to as living stones",
@@ -2408,10 +1830,9 @@ human_reply: [
             }
         ]
 },
-"1C2DApincushionGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Pincushion cacti",
-                "Pediocactus",    
+"genusPediocactus" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "Pincushion cacti (Pediocactus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Pediocactus_simpsonii.jpg/220px-Pediocactus_simpsonii.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/3/37/Pediocactus_bradyi_fh_055_AZ_in_cultur_B.jpg/220px-Pediocactus_bradyi_fh_055_AZ_in_cultur_B.jpg />",
                 "The name of the genus means 'flat' or 'field'",
@@ -2428,10 +1849,9 @@ human_reply: [
             }
         ]
 },
-"1C2AAlittleBarrelGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Little barrel cacti / hard cacti",
-                "Sclerocactus",    
+"genusSclerocactus" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "Little barrel cacti / hard cacti (Sclerocactus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sclerocactus_wrightiae.jpg/220px-Sclerocactus_wrightiae.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sclerocactus_parviflorus_fh_51_AZ_B.jpg/200px-Sclerocactus_parviflorus_fh_51_AZ_B.jpg />",
                 "These cacti are used to very arid environments",
@@ -2448,30 +1868,9 @@ human_reply: [
             }
         ]
 },
-"1C2DBlittleBarrelGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Little barrel cacti / hard cacti",
-                "Sclerocactus",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Sclerocactus_wrightiae.jpg/220px-Sclerocactus_wrightiae.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Sclerocactus_parviflorus_fh_51_AZ_B.jpg/200px-Sclerocactus_parviflorus_fh_51_AZ_B.jpg />",
-                "These cacti are used to very arid environments",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1C2ABcommonFishhookGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Pincushion / nipple cacti",
-                "Mammillaria",    
+"genusMammillaria" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "Pincushion / nipple cacti (Mammillaria)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Mammillaria_spinosissima_by_RO.jpg/220px-Mammillaria_spinosissima_by_RO.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Mammillaria_%28aka%29.jpg/220px-Mammillaria_%28aka%29.jpg />",
                 "They are still determining the cacti in this genus through DNA research",
@@ -2488,30 +1887,9 @@ human_reply: [
             }
         ]
 },
-"1C2DBcommonFishhookGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Pincushion / nipple cacti",
-                "Mammillaria",    
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/63/Mammillaria_spinosissima_by_RO.jpg/220px-Mammillaria_spinosissima_by_RO.jpg />",
-                "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/d/da/Mammillaria_%28aka%29.jpg/220px-Mammillaria_%28aka%29.jpg />",
-                "They are still determining the cacti in this genus through DNA research",
-                "I hope you learned something interesting about these cacti. Would you like to ask Saguaro about another one?"
-        ],
-        human_reply: [  
-            {
-                human_response: "I want to learn about another cactus",
-                bot_answer: "theheight"
-            },   
-            {
-                human_response: "Hmmm, maybe not",
-                bot_answer: "finalend"
-            }
-        ]
-},
-"1C2DCredspinePineappleGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Spiny breast cacti",
-                "Echinomastus",    
+"genusEchinomastus" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "Spiny breast cacti (Echinomastus)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Echinomastus_johnsonii_1.jpg/220px-Echinomastus_johnsonii_1.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Echinomastus_johnsonii_5.jpg/220px-Echinomastus_johnsonii_5.jpg />",
                 "They are native to the southwestern US",
@@ -2528,10 +1906,9 @@ human_reply: [
             }
         ]
 },
-"1C2DCpimaPineappleGenus" : {
-    bot_says: [ "Ok. Maybe you discovered a new cactus? Or it's another cactus in the same genus?",
-                "Beehive cacti",
-                "Coryphantha",    
+"genusCoryphantha" : {
+    bot_says: [ "Ok. Maybe it's another cactus in the same genus?",
+                "Beehive cacti (Coryphantha)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Nightblooming_cactus.jpg/220px-Nightblooming_cactus.jpg />",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Coryphantha_palmeri.JPG/220px-Coryphantha_palmeri.JPG />",
                 "The genus is Greek for 'flowering from the top'",
@@ -2561,7 +1938,7 @@ human_reply: [
                 bot_answer: "theheight"
             },   
             {
-                human_response: "Hmmm, maybe not",
+                human_response: "Not now, but thanks for offering",
                 bot_answer: "finalend"
             }
         ]

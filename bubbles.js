@@ -8,7 +8,6 @@ function Bubbles(container, self, options) {
   widerBy = options.widerBy || 2 // add a little extra width to bubbles to make sure they don't break
   sidePadding = options.sidePadding || 6 // padding on both sides of chat bubbles
   recallInteractions = options.recallInteractions || 0 // number of interactions to be remembered and brought back upon restart
-  inputCallbackFn = options.inputCallbackFn || false // should we display an input field?
 
   var standingAnswer = "intro" // remember where to restart convo if interrupted
 
@@ -71,46 +70,6 @@ function Bubbles(container, self, options) {
   var bubbleWrap = document.createElement("div")
   bubbleWrap.className = "bubble-wrap"
   container.appendChild(bubbleWrap)
-
-  // install user input textfield
-  this.typeInput = function(callbackFn) {
-    var inputWrap = document.createElement("div")
-    inputWrap.className = "input-wrap"
-    var inputText = document.createElement("textarea")
-    inputText.setAttribute("placeholder", "Ask me anything...")
-    inputWrap.appendChild(inputText)
-    inputText.addEventListener("keypress", function(e) {
-      // register user input
-      if (e.keyCode == 13) {
-        e.preventDefault()
-        typeof bubbleQueue !== false ? clearTimeout(bubbleQueue) : false // allow user to interrupt the bot
-        var lastBubble = document.querySelectorAll(".bubble.say")
-        lastBubble = lastBubble[lastBubble.length - 1]
-        lastBubble.classList.contains("reply") &&
-        !lastBubble.classList.contains("reply-freeform")
-          ? lastBubble.classList.add("bubble-hidden")
-          : false
-        addBubble(
-          '<span class="bubble-button bubble-pick">' + this.value + "</span>",
-          function() {},
-          "reply reply-freeform"
-        )
-        // callback
-        typeof callbackFn === "function"
-          ? callbackFn({
-              input: this.value,
-              convo: _convo,
-              standingAnswer: standingAnswer
-            })
-          : false
-        this.value = ""
-      }
-    })
-    container.appendChild(inputWrap)
-    bubbleWrap.style.paddingBottom = "100px"
-    inputText.focus()
-  }
-  inputCallbackFn ? this.typeInput(inputCallbackFn) : false
 
   // init typing bubble
   var bubbleTyping = document.createElement("div")
