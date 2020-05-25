@@ -2,8 +2,9 @@
 // stops conversation using X in lower-left corner
 const stopIcon = document.getElementById("stop");
 
-/*
+
 stopIcon.addEventListener("click", function stopChat() {
+  console.log("click stop");
   let stopBubble = document.createElement("div");
   stopBubble.classList.add("bubble", "say");
   stopBubble.innerHTMl("Ok, I understand. Thanks for talking with Saguaro. Goodbye.");
@@ -18,8 +19,13 @@ stopIcon.addEventListener("click", function stopChat() {
   }
   
   adjacentBubble.after(stopBubble);
+  
+  
+  
+  // stop function addBubble
+  // bubble appears next to the X - ok 
 });
-*/
+
 
 /*
 
@@ -42,12 +48,6 @@ stopIcon.addEventListener("click", function stopChat() {
 // tk stop function with the X
 // tk ~line 470 "1B2BA" - new Date - month shows the answer
 // tk ~line 540 "1B2CB" - colors
-// tk refactor css
-// tk mobile
-// tk chat bubbles corners on desktop and mobile
+// tk mobile css
 // tk delete console logs and extra comments
 // tk qa with all cacti
-// bot_answer: "#" signifies that this is the end of the conversation
-// length of human replies making the chat a little buggy
-// max height images
-// writing

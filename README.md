@@ -13,6 +13,8 @@ If you are intersted in learning more about cacti or native plants in your regio
 
 This chatbot was created for the capstone project in the [Design a Feminist Chatbot course](https://www.futurelearn.com/courses/designing-a-feminist-chatbot) by UAL Creative Computing Institute.
 
+The chat library is [bubbles.js](https://dmitrizzle.github.io/chat-bubble/).
+
 ### 🌵 Photo credits
 
 The background splash image is by Dulcey Lima on [Unsplash](https://unsplash.com/photos/Md-rgK-zwgU).
