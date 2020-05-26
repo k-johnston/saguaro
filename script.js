@@ -3,27 +3,21 @@ const stopIcon = document.getElementById("stop");
 var stopBubble;
 
 stopIcon.addEventListener("click", function() {
-  sayGoodbye();
+  setTimeout(sayGoodbye, 500);
   setTimeout(stopChat, 3000);
 });
-var chatDivs = [];
-function stopChat() {
-  let chatDivs = document.getElementsByClassName("bubble"); // left side
-  let chatDivsHuman = document.getElementsByClassName("bubble-button"); // right side
 
-  for (let i = 0; i < chatDivsHuman.length; i++) {
-    chatDivsHuman.forEach(i => chatDivs.push(i));
-    console.log(chatDivs);
-    return chatDivs;
-  }
-  
+function stopChat() {
+  let chatDivsAI = document.getElementsByClassName("bubble");
+  let chatDivsReplies = document.getElementsByClassName("bubble-button");
+  var chatDivs =  [...chatDivsAI, ...chatDivsReplies]; // spread operator
   for (let i = 0; i < chatDivs.length; i++) {
     let chatDivsStyle = chatDivs[i].style;
-    chatDivsStyle.backgroundColor = "red";
-    if (chatDivs[i].classList.contains("bubble-button")) {
-      chatDivsStyle.backgroundColor = "purple";
-    } else if (chatDivs[i].classList.contains("stop-app")) {
-      chatDivsStyle.backgroundColor = "teal";
+    chatDivsStyle.visibility = "hidden";
+    chatDivsStyle.opacity = 0;
+    if (chatDivs[i].classList.contains("stop-app")) {
+      chatDivsStyle.visibility = "visible";
+      chatDivsStyle.opacity = 1;
     }
   }
 }
@@ -79,9 +73,8 @@ const teddBearChollaText = "There are yellow-green flowers"; // April May June S
         return chollaMonth;
       break;
       default :
-        chollaMonth = chollaMonth;
+        return chollaMonth;
     }
-        console.log(chollaMonth);
 
   }
 })();
@@ -91,10 +84,6 @@ function setChollaText(chollaPlant, chollaNewText) {
 }
 
 // if chollaQuestion appears on page, setChollaText(selection);
-
-
-
-
 
 
 /*
@@ -123,20 +112,7 @@ human_reply: [
 */
 
 
-
-
-
-// https://javascript.info/modifying-document
-
-
-
-// https://glitch.com/~feminist-chatbot-template
-
+// fix later
 // tk ~line 470 "1B2BA" - new Date - month shows the answer
 // ^^ have a div with a class and the default value - if time of year (month) change the inner html
-// tk delete console logs and extra comments
-
-// could fix later
-// bubble width and top-bottom margins - standardize width / remove inline styling from bubbles.js
 // test that the new Date works in each month April through September and NOT in those months (needles) with setUTCMonth https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCMonth
-// typing dots margin top after images (i think the margin bottoms of images collapse)

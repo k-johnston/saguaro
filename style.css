@@ -67,7 +67,7 @@ h1 {
   transition: all 200ms;
   box-sizing: content-box;
   max-width: 275px;
-  min-width: 200px !important;
+  min-width: 80px !important;
 }
 
 .bubble .bubble-content {
@@ -94,7 +94,7 @@ h1 {
 /* style media that's inside bubbles */
 .bubble .bubble-content img {
   width: calc(120% + 32px);
-  max-height: 350px;
+  max-height: 300px;
   margin: -8px -16px;
   overflow: hidden;
   display: block;
@@ -224,6 +224,7 @@ h1 {
   min-width: unset !important;
   padding: 8px 16px 0;
   height: 1.5em; /* line height in bubbles */
+  margin-top: 6px !important; /* fixes bug where the margin-bottom of the images collapse so it is misplaced */
 }
 
 .dot {
@@ -273,9 +274,14 @@ h1 {
 .stop-app {
   position: absolute;
   bottom: 10px;
-  left: 50px;
+  left: 45px;
   margin-bottom: 0;
   max-width: unset;
+}
+
+.bubble.history .bubble-content .bubble-button,
+.bubble.history .bubble-content .bubble-button:hover  {
+  transition: opacity 4s 0s, visibility 4s 4s !important;
 }
 
 @media (max-width: 1024px) {
@@ -322,10 +328,6 @@ h1 {
   
   .bubble.bubble-picked .bubble-content .bubble-button {
     padding-right: 16px !important;
-  }
-  
-  .bubble .bubble-content img {
-    max-height: 300px;
   }
   
   .bubble.stop-app {
