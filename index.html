@@ -4,53 +4,46 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <title>Saguaro chatbot</title>
-    
     <link rel="stylesheet" href="/style.css">
     <script src="/bubbles.js"></script>
     <script src="/script.js" defer></script>
-<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌵</text></svg>">
-
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌵</text></svg>">
   </head>  
   <body>
-<div id="chat">
-  <div class="header">
-      <h1>🌵 Saguaro 🌵</h1>
-  </div>
-  <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
-  <div id="stop">❌</div>
-</div>
+    <div id="chat">
+      <div class="header">
+          <h1>🌵 Saguaro 🌵</h1>
+      </div>
+      <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+      <div id="stop">❌</div>
+    </div>
+    
+    <script src="/convo.js"></script>
+    <script>
+      var convo;
+      var chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
+        inputCallbackFn: function(o) {
+          var match = function(key) {
+            setTimeout(function() {
+              chatWindow.talk(convo, key) // restart current convo from point found in the answer
+            }, 600)
+          }
 
-<script src="/convo.js"></script>
-<script>
-var convo;
-var chatWindow = new Bubbles(document.getElementById("chat"), "chatWindow", {
-  inputCallbackFn: function(o) {
-    var match = function(key) {
-      setTimeout(function() {
-        chatWindow.talk(convo, key) // restart current convo from point found in the answer
-      }, 600)
-    }
+          // search function -  for the bot
+          var found = false
+          o.convo[o.standingAnswer].reply.forEach(function(e, i) {
+            strip(e.human_response).includes(strip(o.input)) && o.input.length > 0
+              ? (found = e.bot_answer)
+              : found ? null : (found = false)
+          })
+          found ? match(found) : miss()
+        }
+      })
 
-    // sanitize text for search function
-    var strip = function(text) {
-      return text.toLowerCase().replace(/[\s.,\/#!$%\^&\*;:{}=\-_'"`~()]/g, "")
-    }
+      chatWindow.talk(convo)
+  </script>
 
-    // search function -  for the bot
-    var found = false
-    o.convo[o.standingAnswer].reply.forEach(function(e, i) {
-      strip(e.human_response).includes(strip(o.input)) && o.input.length > 0
-        ? (found = e.bot_answer)
-        : found ? null : (found = false)
-    })
-    found ? match(found) : miss()
-  }
-})
-
-chatWindow.talk(convo)
-</script>
-    <script src="https://button.glitch.me/button.js" defer></script>
+  <script src="https://button.glitch.me/button.js" defer></script>
   </body>
 </html>
