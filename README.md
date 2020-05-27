@@ -7,7 +7,7 @@ I'm from Arizona, but didn't know much about the many common and native varietie
 
 The scientific classification of cacti was a good constraint to structure and organize my project and keep a limited scope. I used these resources: [Wikipedia](https://en.wikipedia.org/), [Arizona Municipal Water Users Association](http://www.amwua.org/what-you-can-do/landscape-and-garden), [Arizona State Parks & Trails](https://azstateparks.com/), and the [eFloras database](http://www.efloras.org/index.aspx).
 
-If you are intersted in learning more about cacti or native plants in your region, I recommend these resources. Maybe this conversation is the seed that will inspire you to add them to your own yard and strengthen the biodiversity of your environment!
+If you are interested in learning more about cacti or native plants in your region, I recommend these resources. Maybe this conversation is the seed that will inspire you to add them to your own yard and strengthen the biodiversity of your environment!
 
 ### 🌵 Why a chatbot?
 
