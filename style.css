@@ -58,16 +58,16 @@ h1 {
   background: #ffffff;
   padding: 8px 16px;
   border-radius: 15px 15px 15px 5px;
-  margin: 0 0 4px 0;
+  margin: 4px 0 0 0; /* changed from margin-bottom: 4px; to margin-top: 4px; to fix bug where the margin-bottom of the images collapse so the typing dots overlap the previous bubble */
   max-width: 65%;
-  float: none;
+  float: left; /* also fixes this collapsing margin bug */
   clear: both;
   word-break: break-word;
   transform-origin: left top;
   transition: all 200ms;
   box-sizing: content-box;
   max-width: 275px;
-  min-width: 80px !important;
+  min-width: 250px !important;
 }
 
 .bubble .bubble-content {
@@ -224,7 +224,6 @@ h1 {
   min-width: unset !important;
   padding: 8px 16px 0;
   height: 1.5em; /* line height in bubbles */
-  margin-top: 6px !important; /* fixes bug where the margin-bottom of the images collapse so it is misplaced */
 }
 
 .dot {
@@ -279,6 +278,19 @@ h1 {
   max-width: unset;
 }
 
+#chollabutton {
+  display: inline-block;
+  font-size: 1em;
+  border: unset;
+  background: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+#jumpingcholla, #canecholla, #teddybearcholla {
+  text-align: center;
+}
+
 .bubble.history .bubble-content .bubble-button,
 .bubble.history .bubble-content .bubble-button:hover  {
   transition: opacity 4s 0s, visibility 4s 4s !important;
@@ -289,10 +301,6 @@ h1 {
     background: url(https://cdn.glitch.com/6418d5c5-6eb0-44b2-a7d8-1c6b3e7bc4ec%2Fbackground-small.jpg?v=1589981829053) no-repeat center center fixed;
     background-size: cover;
     background-position-x: 15%;
-  }
-  
-  h1 {
-    text-align: left;
   }
 
   .glitchButton {
@@ -306,15 +314,22 @@ h1 {
   }
 
   .bubble-wrap {
-    padding-top: 26%;
+    padding-top: 22%;
     top: 1px;
   }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 640px) {    
+  .bubble-wrap {
+    padding-top: 26%;
+  }
+  
+  h1 {
+    text-align: left;
+  }
+  
   .bubble.say:not(.reply) {
     max-width: 190px !important;
-    min-width: unset !important;
   }
   
   .bubble.reply .bubble-content .bubble-button {

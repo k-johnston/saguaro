@@ -3,7 +3,7 @@ var convo = {
 intro: {
     bot_says: [ "Hi, this is Saguaro, the chatbot who will help you identify a cactus that you found.",
                 "Saguaro won&rsquo;t access your location or save your response, so if you are interested in learning more about the answer, please save its name somewhere that can be accessed later.",
-                "If you want to stop at any time, you can press the X in the bottom left corner.",
+                "If you want to stop at any time, you can press the X in the lower-left corner.",
                 "Are you ready for a few questions?"
         ],
     human_reply: [
@@ -37,7 +37,7 @@ human_reply: [
 // end 1
 // 2 - general shape question
 "1A" : {
-    bot_says: [ "Great! Cacti come in a few general shapes. Can you tell me which one best describes your cactus?" 
+    bot_says: [ "Great! Cacti come in a few general shapes. Can you tell Saguaro which one best describes your cactus?" 
         ],
 human_reply: [
             {
@@ -59,7 +59,7 @@ human_reply: [
         ]
 },
 "1B" : {
-    bot_says: [ "Great! Cacti come in a few general shapes. Can you tell me which one best describes your cactus?"
+    bot_says: [ "Great! Cacti come in a few general shapes. Can you tell Saguaro which one best describes your cactus?"
         ],
 human_reply: [
             {
@@ -81,7 +81,7 @@ human_reply: [
         ]
 },
 "1C" : {
-    bot_says: [ "Great! Cacti come in a few general shapes. Can you tell me which one best describes your cactus?"
+    bot_says: [ "Great! Cacti come in a few general shapes. Can you tell Saguaro which one best describes your cactus?"
         ],
 human_reply: [
             {
@@ -189,11 +189,11 @@ human_reply: [
         ],
 human_reply: [  
             {
-                human_response: "The branches have an intense amount of needles",
+                human_response: "Yes, this looks like a tree with intensely covered-in-needles branches",
                 bot_answer: "1B2BA"
             },   
             {
-                human_response: "No, the branches are shaped differently or have needles that are very close to the branch",
+                human_response: "No, the branches are shaped differently or have minimal needles",
                 bot_answer: "1B2BB"
             }
         ]
@@ -302,7 +302,7 @@ human_reply: [
   // end 3
   // 4 - differentiator questions round 2
 "1A2AA" : {
-    bot_says: [ "We are getting there, but I have another question.",
+    bot_says: [ "We are getting there, but Saguaro has have another question.",
                 "Are its needles black? (Please take care when looking, as they are sharp!)"
         ],
 human_reply: [  
@@ -328,7 +328,7 @@ human_reply: [
         ]
 },
 "1A2BA" : {
-    bot_says: [ "We are getting there, but I have another question.",
+    bot_says: [ "We are getting there, but Saguaro has another question.",
                 "Does this cactus have no needles and looks smooth?"
         ],
 human_reply: [  
@@ -354,7 +354,7 @@ human_reply: [
         ]
 },
 "1A2CA" : {
-    bot_says: [ "We are getting there, but I have another question.",
+    bot_says: [ "We are getting there, but Saguaro has have another question.",
                 "Does this cactus have no needles and looks smooth?"
         ],
 human_reply: [  
@@ -380,7 +380,7 @@ human_reply: [
         ]
 },
 "1B2AA" : {
-    bot_says: [ "We are getting there, but I have one more question.",
+    bot_says: [ "We are getting there, but Saguaro has have one more question.",
                 "Is the cactus gray-green and does the stem look like pinecones stacked on top of each other?"
         ],
 human_reply: [  
@@ -395,7 +395,7 @@ human_reply: [
         ]
 },
 "1B2AB" : {
-    bot_says: [ "We are getting there, but I have one more question.",
+    bot_says: [ "We are getting there, but Saguaro has have one more question.",
                 "Are the needles white or gray?",
                 "And if they are gray, does it bloom pink flowers at night?"
         ],
@@ -411,7 +411,7 @@ human_reply: [
         ]
 },
 "1B2AC" : {
-    bot_says: [ "We are getting there, but I have one more question.",
+    bot_says: [ "We are getting there, but Saguaro has have one more question.",
                 "Does it have bright yellow, orange, or red flowers?",
                 "Or does it have large white flowers that bloom at night?"
         ],
@@ -427,26 +427,26 @@ human_reply: [
         ]
 },
 "1B2BA" : {
-    bot_says: [ "We are getting there, but I have another question.",
-                "<div id=chollaquestion>These cacti have distinct needles. What do they look like?</div>"
+    bot_says: [ "We are getting there, but Saguaro needs you to do something before it asks another question.",
+                "<div id=chollaquestion>Once the responses load, please click the cactus emoji to the right of the title. This will update our chat to ask the right questions about the cactus&rsquo;s flowers.</div>"
         ],
 human_reply: [  
             {
-                human_response: "<div id=jumpingcholla>There are no flowers, but there are needles that are the length of fingers and extremely short</div>",
+                human_response: "<div id=jumpingcholla>There are needles that are the length of fingers and extremely short</div>",
                 bot_answer: "1B2BAjumpingCholla"
             },   
             {
-                human_response: "<div id=canecholla>There are no flowers, but this cactus has moderate needles</div>",
+                human_response: "<div id=canecholla>This cactus has moderate needles</div>",
                 bot_answer: "1B2BAcaneCholla"
             },   
             {
-                human_response: "<div id=teddybearcholla>There are no flowers, but the needles look fuzzy</div>",
+                human_response: "<div id=teddybearcholla>The needles look fuzzy</div>",
                 bot_answer: "1B2BAteddyBearCholla"
             }
         ]
 },
 "1B2BB" : {
-    bot_says: [ "We are getting there, but I have another question.",
+    bot_says: [ "We are getting there, but Saguaro has have another question.",
                 "Does the tree have narrow branches with needles, or paddles?",
                 "And if it has narrow branches, does it have red-orange flowers?"
         ],
@@ -491,7 +491,7 @@ human_reply: [
         ]
 },
 "1B2CB" : {
-    bot_says: [ "We are getting there, but I have another question.",
+    bot_says: [ "We are getting there, but Saguaro has have another question.",
                 "What are the colors of the paddles, in a range from gray-green to purple?",
                 "Here is a beautiful gradient to help visualize the colors",
                 "<img src=https://cdn.glitch.com/6418d5c5-6eb0-44b2-a7d8-1c6b3e7bc4ec%2Fpricklypear.png?v=1590420764552 />"
@@ -531,7 +531,7 @@ human_reply: [
         ]
 },
 "1B2DA" : {
-    bot_says: [ "We are getting there, but I have another question.",
+    bot_says: [ "We are getting there, but Saguaro has have another question.",
                 "Is it a round globe or clumps of round tubes?"
         ],
 human_reply: [  
@@ -546,7 +546,7 @@ human_reply: [
         ]
 },
 "1B2DB" : {
-    bot_says: [ "We are getting there, but I have another question.",
+    bot_says: [ "We are getting there, but Saguaro has have another question.",
                 "Is it blue-green with long pinkish-brown needles in a star shape?"
         ],
 human_reply: [  
@@ -642,7 +642,7 @@ human_reply: [
         ]
 },
 "1C2DB" : {
-    bot_says: [ "We are getting there, but I have another question.",
+    bot_says: [ "We are getting there, but Saguaro has have another question.",
                 "Does the cactus have gray hooked needles or black hooked needles with many multiple white needles?"
         ],
 human_reply: [  
@@ -657,7 +657,7 @@ human_reply: [
         ]
 },
 "1C2DC" : {
-    bot_says: [ "We are getting there, but I have another question.",
+    bot_says: [ "We are getting there, but Saguaro has have another question.",
                 "Does this cactus have white, pink, or lavender flowers that bloom in early March or yellow flowers that bloom after a monsoon rain in late July to August?"
         ],
 human_reply: [  
@@ -1431,7 +1431,7 @@ human_reply: [
     bot_says: [ "Thanks for your answers. Saguaro thinks it knows the cactus!",
                 "Pincushion cactus (<em>Pediocactus</em>)",
                 "<img src=https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Pediocactus_simpsonii.jpg/220px-Pediocactus_simpsonii.jpg />",
-                "Pediocactus means flat cactus",
+                "Pediocactus means &lsquo;flat cactus&rsquo;",
                 "Does this look like your cactus?"
         ],
     human_reply: [  
