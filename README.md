@@ -1,6 +1,14 @@
 About Saguaro
 =============
 
+### 🌵 Why a chatbot?
+
+This chatbot was created for the capstone project in the [Design a Feminist Chatbot course](https://www.futurelearn.com/courses/designing-a-feminist-chatbot) by UAL Creative Computing Institute.
+
+The chat library is [bubbles.js](https://dmitrizzle.github.io/chat-bubble/).
+
+The broader goal of this project is to address this question: How could a chatbot help people learn about the native plants in their area?
+
 ### 🌵 Why cacti?
 
 I'm from Arizona, but didn't know much about the many common and native varieties of cacti there. I wanted to learn more!
@@ -9,13 +17,7 @@ The scientific classification of cacti was a good constraint to structure and or
 
 If you are interested in learning more about cacti or native plants in your region, I recommend these resources. Maybe this conversation is the seed that will inspire you to add them to your own yard and strengthen the biodiversity of your environment!
 
-### 🌵 Why a chatbot?
-
-This chatbot was created for the capstone project in the [Design a Feminist Chatbot course](https://www.futurelearn.com/courses/designing-a-feminist-chatbot) by UAL Creative Computing Institute.
-
-The chat library is [bubbles.js](https://dmitrizzle.github.io/chat-bubble/).
-
-### 🌵 Photo credits
+### 🌵 Credits
 
 The background splash image is by Dulcey Lima on [Unsplash](https://unsplash.com/photos/Md-rgK-zwgU).
 
@@ -25,14 +27,6 @@ Thanks to everyone for allowing these images to be used.
 
 ### 🌵 More plant chatbots
 
-I have a few more chatbots in development based on this one:
-- [California plants](https://hi-california-plant-friends.glitch.me/)
-- [Arizona plants](https://hi-arizona-plant-friends.glitch.me/)
-- [Western wildflowers](https://hi-wildflower-friends.glitch.me/)
+I'm planning more related to other Arizonan or Californian plants.
 
-Please remix this for the plants in your area! I'd love to learn more about them 😊
-
-Made on [Glitch](https://glitch.com/)
--------------------
-
-\ ゜o゜)ノ
+Also please remix this for the plants in your area! I'd love to learn more about them 😊
