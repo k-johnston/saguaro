@@ -5,8 +5,6 @@ About Saguaro
 
 This chatbot was created for the capstone project in the [Design a Feminist Chatbot course](https://www.futurelearn.com/courses/designing-a-feminist-chatbot) by UAL Creative Computing Institute.
 
-The chat library is [bubbles.js](https://dmitrizzle.github.io/chat-bubble/).
-
 The broader goal of this project is to address this question: How could a chatbot help people learn about the native plants in their area?
 
 ### 🌵 Why cacti?
@@ -19,11 +17,9 @@ If you are interested in learning more about cacti or native plants in your regi
 
 ### 🌵 Credits
 
-The background splash image is by Dulcey Lima on [Unsplash](https://unsplash.com/photos/Md-rgK-zwgU).
+The background splash image is by Dulcey Lima on [Unsplash](https://unsplash.com/photos/Md-rgK-zwgU). All images within the chat are from [Wikipedia](https://en.wikipedia.org/wiki/Cactus), except for Echinomastus erectocentrus, which was taken by lonqueta and accessed on [flickr](https://www.flickr.com/photos/lonqueta/5681560518). Thanks to everyone for allowing these images to be used.
 
-All images within the chat are from [Wikipedia](https://en.wikipedia.org/wiki/Cactus), except for Echinomastus erectocentrus, which was taken by lonqueta and accessed on [flickr](https://www.flickr.com/photos/lonqueta/5681560518).
-
-Thanks to everyone for allowing these images to be used.
+The chat library is [bubbles.js](https://dmitrizzle.github.io/chat-bubble/).
 
 ### 🌵 More plant chatbots
 
