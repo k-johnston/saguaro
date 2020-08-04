@@ -27,6 +27,6 @@ Thanks to everyone for allowing these images to be used.
 
 ### 🌵 More plant chatbots
 
-I'm planning more related to other Arizonan or Californian plants.
+I'm planning more chatbots related to other Southwestern plants.
 
 Also please remix this for the plants in your area! I'd love to learn more about them 😊
