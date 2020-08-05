@@ -23,6 +23,6 @@ The chat library is [bubbles.js](https://dmitrizzle.github.io/chat-bubble/).
 
 ### 🌵 More plant chatbots
 
-I'm planning more chatbots related to other Southwestern plants.
+I'm planning more chatbots related to other Southwestern plants. You can also read more about this project [here](https://kathrynjohnston.substack.com/p/introducing-saguaro).
 
 Also please remix this for the plants in your area! I'd love to learn more about them 😊
